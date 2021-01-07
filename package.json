@@ -1,0 +1,21 @@
+{
+  "name": "robotics",
+  "version": "0.0.1",
+  "description": "robotics for bstu",
+  "main": "index.php",
+  "scripts": {
+    "test": "robotics"
+  },
+  "keywords": [
+    "robotics",
+    "bstu"
+  ],
+  "author": "marshallbaby",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp-sass": "^4.1.0"
+  }
+}

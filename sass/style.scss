@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Raleway:wght@100;200;400;500;600&family=Roboto:wght@100;300;500;700&display=swap');
+
+$robotics-white: #FCFCFC;
+$robotics-white-hover: #F0F0F0;
+$robotics-dark: #3F3F3F;
+$robotics-accent: #2177A8;
+
+$lead-margin: 21px;
+
+style{
+    display: none;
+}
+
+body{
+    width: 100%;
+    background-color: $robotics-white;
+    .wrapper{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;    
+    max-width: 2000px;    
+    }
+    .card{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: $lead-margin;
+        margin-bottom: $lead-margin;
+        width: calc(90% - 56px);
+        background-image: url(../../img/card/IMG_3936.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 50px 28px 50px 28px;
+        border-radius: 14px;
+        display: flex;
+        flex-direction: column;
+        &__title{
+            font-family: "Cabin", sans-serif;
+            font-size: 28px;
+            color: $robotics-white;
+            font-weight: 600;
+            margin-bottom: 36px;
+        }
+        &__subtitle{
+            font-family: "Roboto", sans-serif;
+            font-size: 14px;
+            color: $robotics-white;
+            font-weight: 300;
+            margin-bottom: 36px;
+        }
+        &__button{
+            text-align: center;
+            width: 150px;
+            color: $robotics-dark;
+            font-size: 14px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+            background-color: $robotics-white;
+            border-radius: 10px;
+            padding: 14px 21px 14px 21px;
+            user-select: none;
+            cursor: pointer;
+        }
+        &__smedia{
+            margin-top: 21px;
+            display: flex;
+            i{
+                color: $robotics-white;
+                font-size: 21px;
+                margin-right: 14px;
+            }
+            i:last-child{
+                margin-right: 0px;
+            }
+        }
+        }
+}
+
+.header{
+    width: calc(100% - 32px);
+    padding: 14px 16px 14px 16px;
+    background-color: $robotics-white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__logo{
+        width: 65px;
+        height: 35px;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: cover !important;
+        cursor: pointer;
+    }
+    i{
+        color: $robotics-dark;
+        font-size: 24px;
+    }
+}
