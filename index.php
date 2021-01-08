@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../sass/css/style.css">
-    <link rel="stylesheet" href="../sass/css/null.css">
-    <link rel="stylesheet" href="../sass/css/root.css">
+    <link rel="stylesheet" href="sass/css/style.css">
+    <link rel="stylesheet" href="sass/css/null.css">
+    <link rel="stylesheet" href="sass/css/root.css">
     <script src="https://kit.fontawesome.com/673dec0f39.js" crossorigin="anonymous"></script>
 </head>
 <body class="body">
