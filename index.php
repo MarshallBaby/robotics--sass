@@ -23,6 +23,8 @@
         <i class="fab fa-telegram-plane"></i>
         <i class="fab fa-youtube"></i>
         </div>
+        <a class="card__history-link" href="#">История <i class="fas fa-angle-right"></i></a>
+        <div class="card__wrapper"></div>
         </div>
 
 

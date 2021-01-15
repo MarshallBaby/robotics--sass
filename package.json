@@ -17,5 +17,13 @@
   },
   "devDependencies": {
     "gulp-sass": "^4.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarshallBaby/robotics--sass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MarshallBaby/robotics--sass/issues"
+  },
+  "homepage": "https://github.com/MarshallBaby/robotics--sass#readme"
 }
