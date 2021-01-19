@@ -25,7 +25,7 @@
         </div>
         <a class="card__history-link" href="#">История <i class="fas fa-angle-right"></i></a>
         <div class="card__wrapper"></div>
-        </div>
+        </div>Alexikus el dodiko
 
 
     </div>
