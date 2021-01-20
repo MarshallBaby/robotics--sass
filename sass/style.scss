@@ -8,9 +8,18 @@ $robotics-accent: #2177A8;
 $lead-margin: 21px;
 $box-shadow-lead: 9px 7px 11px -8px rgba(0,0,0,0.47);
 
+$bootstrap-sm-breakpoint: 567px;
+$bootstrap-md-breakpoint: 768px;
+$bootstrap-lg-breakpoint: 992px;
+$bootstrap-lx-breakpoint: 1200px;
+$bootstrap-xxl-breakpoint: 1400px;
+
+
 style{
     display: none;
 }
+
+
 
 body{
     width: 100%;
@@ -38,6 +47,41 @@ body{
         display: flex;
         flex-direction: column;
         box-shadow: $box-shadow-lead;
+        @media (min-width: $bootstrap-sm-breakpoint){
+            width: calc(90% - (28px + 15%));
+            padding: 50px 15% 40px 28px;
+            &__button{
+             &:hover{
+                 background-color: $robotics-white-hover;
+             }   
+            }
+        }
+        @media (min-width: $bootstrap-md-breakpoint){
+            width: calc(90% - (28px + 20%));
+            padding: 50px 20% 40px 28px;
+        }
+        @media (min-width: $bootstrap-lg-breakpoint){
+            width: calc(90% - (28px + 30%));
+            padding: 50px 30% 40px 28px;
+        
+        }
+        @media (min-width: $bootstrap-lx-breakpoint){
+            width: calc(90% - (40px + 40%));
+            padding: 110px 40% 80px 40px;
+            &__title{
+                font-size: 35px !important;
+            }
+            &__subtitle{
+                font-size: 21px !important;
+            }
+            &__button{
+                font-size: 21px !important;
+                width: 210px !important;
+            }
+            &__smedia{
+                margin-top: 35px !important;
+            }
+        }
         *{
             z-index: 2;
         }
@@ -66,6 +110,7 @@ body{
             margin-bottom: 36px;
         }
         &__button{
+            transition: 0.3s all ease;
             text-align: center;
             width: 150px;
             color: $robotics-dark;
@@ -76,7 +121,13 @@ body{
             border-radius: 10px;
             padding: 14px 21px 14px 21px;
             user-select: none;
+            white-space: nowrap;
             cursor: pointer;
+            @media (min-width: $bootstrap-sm-breakpoint){
+                :hover{
+                    background-color: $robotics-white-hover;
+                }
+            }
         }
         &__smedia{
             margin-top: 21px;
@@ -125,3 +176,12 @@ body{
         font-size: 24px;
     }
 }
+
+// @media (min-width: 576px){
+//     body{
+//         .card{
+           
+//         }
+//     }
+    
+// }

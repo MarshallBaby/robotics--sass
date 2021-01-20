@@ -31,6 +31,46 @@ body .card {
   flex-direction: column;
   box-shadow: 9px 7px 11px -8px rgba(0, 0, 0, 0.47);
 }
+@media (min-width: 567px) {
+  body .card {
+    width: calc(90% - (28px + 15%));
+    padding: 50px 15% 40px 28px;
+  }
+  body .card__button:hover {
+    background-color: #F0F0F0;
+  }
+}
+@media (min-width: 768px) {
+  body .card {
+    width: calc(90% - (28px + 20%));
+    padding: 50px 20% 40px 28px;
+  }
+}
+@media (min-width: 992px) {
+  body .card {
+    width: calc(90% - (28px + 30%));
+    padding: 50px 30% 40px 28px;
+  }
+}
+@media (min-width: 1200px) {
+  body .card {
+    width: calc(90% - (40px + 40%));
+    padding: 110px 40% 80px 40px;
+  }
+  body .card__title {
+    font-size: 35px !important;
+  }
+  body .card__subtitle {
+    font-size: 21px !important;
+  }
+  body .card__button {
+    font-size: 21px !important;
+    width: 210px !important;
+  }
+  body .card__smedia {
+    margin-top: 35px !important;
+  }
+}
 body .card * {
   z-index: 2;
 }
@@ -59,6 +99,7 @@ body .card__subtitle {
   margin-bottom: 36px;
 }
 body .card__button {
+  transition: 0.3s all ease;
   text-align: center;
   width: 150px;
   color: #3F3F3F;
@@ -69,7 +110,13 @@ body .card__button {
   border-radius: 10px;
   padding: 14px 21px 14px 21px;
   user-select: none;
+  white-space: nowrap;
   cursor: pointer;
+}
+@media (min-width: 567px) {
+  body .card__button :hover {
+    background-color: #F0F0F0;
+  }
 }
 body .card__smedia {
   margin-top: 21px;
