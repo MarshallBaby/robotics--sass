@@ -25,13 +25,13 @@ $shadow-sticker: 0px 4px 11px 0px rgba(0,
 }
 
 @mixin subtitles {
-
     font-family: 'Cabin', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 35px;
     color: $robotics-accent;
     margin-bottom: $margin;
+    user-select: none;
 }
 
 body {
@@ -137,15 +137,25 @@ body {
         height: 171px;
         @include background-settings;
     }
+    &__help-container {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+    }
     &__title {
         @include subtitles;
     }
-    &__subtitle 
-    
+    &__subtitle {
+        margin-top: 20px;
+        font-style: 'Raleway', sans-serif;
+        font-size: 21px;
+        font-weight: 200;
+    }
     &__sticker {
         box-shadow: $shadow-sticker;
         border-radius: $border-radius;
-        ackground-image: url(../../img/news/1.jpg);
+        overflow: hidden;
+        margin-bottom: $margin;
     }
     &__descr {
         font-size: 14px;
@@ -156,6 +166,8 @@ body {
     &__more {
         font-style: 'Raleway', sans-serif;
         font-size: 21px;
+        font-weight: 300;
+        color: $robotics-accent;
     }
 }
 

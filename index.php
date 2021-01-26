@@ -46,16 +46,44 @@
                 <h2 class='news__title'>Новости</h2>
             </div>
             <div class='container'>
-                <div class="col-xs-12">
+            <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class='news__sticker'>
                         <div class="news__thumb" style="background-image: url(img/news/1.jpg);"></div>
+                        <div class='news__help-container'>
                         <h3 class='news__subtitle'>Второе место на WorldSkills СНГ</h3>
                         <div class='news__descr'>19-23 мая 2015 года в Казани (Россия) прошел чемпионат по профессиональному мастерству «WorldSkills СНГ». Наши ребята заняли второе место!</div>
                         <div class='news__more'>
                             <a href="#">Подробнее</a>
                         </div>
+                        </div>
                     </div>
                 </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class='news__sticker'>
+                        <div class="news__thumb" style="background-image: url(img/news/1.jpg);"></div>
+                        <div class='news__help-container'>
+                        <h3 class='news__subtitle'>Второе место на WorldSkills СНГ</h3>
+                        <div class='news__descr'>19-23 мая 2015 года в Казани (Россия) прошел чемпионат по профессиональному мастерству «WorldSkills СНГ». Наши ребята заняли второе место!</div>
+                        <div class='news__more'>
+                            <a href="#">Подробнее</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class='news__sticker'>
+                        <div class="news__thumb" style="background-image: url(img/news/1.jpg);"></div>
+                        <div class='news__help-container'>
+                        <h3 class='news__subtitle'>Второе место на WorldSkills СНГ</h3>
+                        <div class='news__descr'>19-23 мая 2015 года в Казани (Россия) прошел чемпионат по профессиональному мастерству «WorldSkills СНГ». Наши ребята заняли второе место!</div>
+                        <div class='news__more'>
+                            <a href="#">Подробнее</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+</div>
             </div>
         </section>
     </div>
