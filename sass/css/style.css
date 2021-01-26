@@ -4,6 +4,7 @@ body {
 }
 
 .card {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -15,6 +16,12 @@ body {
   color: #FCFCFC;
   border: 0px solid #FFFFFF;
   box-shadow: -2px 1px 11px -2px rgba(0, 0, 0, 0.49);
+}
+.card .aboba {
+  display: flex;
+}
+.card__wrapper {
+  display: flex;
 }
 .card__background {
   position: absolute;
@@ -60,6 +67,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   user-select: none;
+  cursor: pointer;
 }
 .card__media {
   margin-top: 20px;
@@ -84,4 +92,90 @@ body {
 .card__history i {
   font-size: 8px;
   margin-left: 3px;
+}
+.card__history_hidden {
+  display: none;
+}
+
+@media (min-width: 567px) {
+  .card__title {
+    padding-right: 20%;
+  }
+  .card__descr {
+    padding-right: 20%;
+  }
+}
+@media (min-width: 992px) {
+  .card__title {
+    font-size: 36px;
+  }
+  .card__descr {
+    font-size: 21px;
+    margin-top: 25px;
+    line-height: 25px;
+    padding-right: 25%;
+  }
+  .card__button {
+    width: 225px;
+    height: 60px;
+    font-size: 18px;
+  }
+  .card__media i {
+    font-size: 25px;
+    padding-right: 10px;
+    transition: 0.3s all ease;
+  }
+  .card__media .bi-facebook:hover {
+    color: #3b5998;
+  }
+  .card__media .bi-instagram:hover {
+    color: #c32aa3;
+  }
+  .card__media .bi-telegram:hover {
+    color: #0088cc;
+  }
+  .card__media .bi-youtube:hover {
+    color: #ff0000;
+  }
+  .card__history {
+    font-size: 18px;
+  }
+  .card__history i {
+    font-size: 12px;
+  }
+}
+@media (min-width: 1200px) {
+  .card {
+    padding-left: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .card__title {
+    padding-right: 35%;
+  }
+  .card__descr {
+    padding-right: 40%;
+    font-size: 18px;
+    margin-top: 25px;
+    line-height: 20px;
+  }
+  .card__button {
+    transition: 0.3s all ease;
+    width: 200px;
+    height: 50px;
+  }
+  .card__button:hover {
+    background-color: #F0F0F0;
+  }
+  .card__media i {
+    font-size: 20px;
+  }
+  .card__history {
+    display: none;
+  }
+  .card__history_hidden {
+    display: flex;
+    margin-left: 25px;
+    margin-top: 33px;
+  }
 }
