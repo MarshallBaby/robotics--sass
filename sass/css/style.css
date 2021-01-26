@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Raleway:wght@100;200;400;500;600&family=Roboto:wght@100;300;500;700&display=swap");
+body {
+  min-width: 300px;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -9,6 +13,7 @@
   overflow: hidden;
   background-color: #192f59;
   color: #FCFCFC;
+  border: 0px solid #FFFFFF;
   box-shadow: -2px 1px 11px -2px rgba(0, 0, 0, 0.49);
 }
 .card__background {
@@ -41,7 +46,6 @@
 }
 .card__button {
   margin-top: 32px;
-  margin-bottom: 32px;
   background: #FCFCFC;
   width: 197px;
   height: 44px;
@@ -55,7 +59,29 @@
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+  user-select: none;
 }
 .card__media {
+  margin-top: 20px;
   display: flex;
+}
+.card__media i {
+  cursor: pointer;
+  padding-right: 7px;
+}
+.card__history {
+  text-decoration: none;
+  color: #FCFCFC;
+  margin-top: 20px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.card__history i {
+  font-size: 8px;
+  margin-left: 3px;
 }
