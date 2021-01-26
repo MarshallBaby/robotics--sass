@@ -13,7 +13,7 @@
 
 <body>
     <div class="container">
-        <div class="card">
+        <section class="card">
             <div class="card__background"></div>
             <h1 class='card__title'>
                 Лаборатория робототехники БрГТУ
@@ -25,8 +25,7 @@
                 <div class='card__button'>
                     Наша деятельность
                 </div>
-                <a class='card__history card__history_hidden'>
-                    История <i class="bi bi-chevron-right"></i>
+                История <i class="bi bi-chevron-right"></i>
                 </a>
             </div>
 
@@ -41,7 +40,24 @@
                 История <i class="bi bi-chevron-right"></i>
             </a>
             </div>
-        </div>
+        </section>
+        <section class='news'>
+            <div class='container'>
+                <h2 class='news__title'>Новости</h2>
+            </div>
+            <div class='container'>
+                <div class="col-xs-12">
+                    <div class='news__sticker'>
+                        <div class="news__thumb" style="background-image: url(img/news/1.jpg);"></div>
+                        <h3 class='news__subtitle'>Второе место на WorldSkills СНГ</h3>
+                        <div class='news__descr'>19-23 мая 2015 года в Казани (Россия) прошел чемпионат по профессиональному мастерству «WorldSkills СНГ». Наши ребята заняли второе место!</div>
+                        <div class='news__more'>
+                            <a href="#">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
