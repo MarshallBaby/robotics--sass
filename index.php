@@ -25,6 +25,7 @@
                 <div class='card__button'>
                     Наша деятельность
                 </div>
+                <a class='card__history card__history_hidden'>
                 История <i class="bi bi-chevron-right"></i>
                 </a>
             </div>
@@ -47,7 +48,7 @@
             </div>
             <div class='container'>
             <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="col-xs-12 col-sm-6 col-lg-4">
                     <div class='news__sticker'>
                         <div class="news__thumb" style="background-image: url(img/news/1.jpg);"></div>
                         <div class='news__help-container'>
@@ -59,11 +60,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="col-xs-12 col-sm-6 col-lg-4">
                     <div class='news__sticker'>
                         <div class="news__thumb" style="background-image: url(img/news/1.jpg);"></div>
                         <div class='news__help-container'>
-                        <h3 class='news__subtitle'>Второе место на WorldSkills СНГ</h3>
+                        <h3 class='news__subtitle'>Чемпионы WorldSkills 2014</h3>
                         <div class='news__descr'>19-23 мая 2015 года в Казани (Россия) прошел чемпионат по профессиональному мастерству «WorldSkills СНГ». Наши ребята заняли второе место!</div>
                         <div class='news__more'>
                             <a href="#">Подробнее</a>
@@ -71,11 +72,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="col-xs-12 col-sm-6 col-lg-4">
                     <div class='news__sticker'>
                         <div class="news__thumb" style="background-image: url(img/news/1.jpg);"></div>
                         <div class='news__help-container'>
-                        <h3 class='news__subtitle'>Второе место на WorldSkills СНГ</h3>
+                        <h3 class='news__subtitle'>Arduino Day 2014</h3>
                         <div class='news__descr'>19-23 мая 2015 года в Казани (Россия) прошел чемпионат по профессиональному мастерству «WorldSkills СНГ». Наши ребята заняли второе место!</div>
                         <div class='news__more'>
                             <a href="#">Подробнее</a>
@@ -83,7 +84,11 @@
                         </div>
                     </div>
                 </div>
+                
 </div>
+<div class='news__all-news'>
+                    <a href="#">все новости</a>
+                </div>
             </div>
         </section>
     </div>

@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Raleway:wght@100;200;400;500;600&family=Roboto:wght@100;300;500;700&display=swap");
 body {
+  background-color: #FCFCFC;
   min-width: 300px;
 }
 
@@ -34,6 +36,9 @@ body {
   background-size: cover;
   opacity: 0.54;
   z-index: 1;
+}
+.card__wrapper {
+  display: flex;
 }
 .card__title {
   font-family: "Cabin", sans-serif;
@@ -104,6 +109,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  cursor: pointer;
 }
 .news__help-container {
   padding-left: 20px;
@@ -136,11 +142,27 @@ body {
   font-style: "Roboto", sans-serif;
   font-weight: 200;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 .news__more {
   font-style: "Raleway", sans-serif;
   font-size: 21px;
   font-weight: 300;
+  color: #2177A8;
+}
+.news__more a {
+  color: #2177A8;
+}
+.news__all-news {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-size: 21px;
+}
+.news__all-news a {
+  text-decoration: none;
   color: #2177A8;
 }
 
