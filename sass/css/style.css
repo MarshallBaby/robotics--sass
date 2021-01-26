@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Raleway:wght@100;200;400;500;600&family=Roboto:wght@100;300;500;700&display=swap");
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 49px 27px 35px 27px;
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  background-color: #192f59;
+  color: #FCFCFC;
+  box-shadow: -2px 1px 11px -2px rgba(0, 0, 0, 0.49);
+}
+.card__background {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../../img/cover.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.54;
+  z-index: 1;
+}
+.card__title {
+  font-family: "Cabin", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+}
+.card * {
+  z-index: 2;
+}
+.card__descr {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+}
+.card__button {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  background: #FCFCFC;
+  width: 197px;
+  height: 44px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  color: #3F3F3F;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.card__media {
+  display: flex;
+}

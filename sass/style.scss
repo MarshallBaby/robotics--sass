@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Raleway:wght@100;200;400;500;600&family=Roboto:wght@100;300;500;700&display=swap');
+$robotics-white: #FCFCFC;
+$robotics-white-hover: #F0F0F0;
+$robotics-dark: #3F3F3F;
+$robotics-accent: #2177A8;
+$bootstrap-sm-breakpoint: 567px;
+$bootstrap-md-breakpoint: 768px;
+$bootstrap-lg-breakpoint: 992px;
+$bootstrap-lx-breakpoint: 1200px;
+$bootstrap-xxl-breakpoint: 1400px;
+$border-radius: 14px;
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 49px 27px 35px 27px;
+    position: relative;
+    border-radius: $border-radius;
+    overflow: hidden;
+    background-color: #192f59;
+    color: $robotics-white;
+    // -webkit-box-shadow: -2px 1px 11px -2px rgba(0, 0, 0, 0.49);
+    // -moz-box-shadow: -2px 1px 11px -2px rgba(0, 0, 0, 0.49);
+    box-shadow: -2px 1px 11px -2px rgba(0, 0, 0, 0.49);
+    &__background {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background-image: url(../../img/cover.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.54;
+        z-index: 1;
+    }
+    &__title {
+        font-family: "Cabin", sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+    }
+    * {
+        z-index: 2;
+    }
+    &__descr {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    &__button {
+        margin-top: 32px;
+        margin-bottom: 32px;
+        background: $robotics-white;
+        width: 197px;
+        height: 44px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+        color: $robotics-dark;
+        font-size: 14px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+    }
+    &__media {
+        display: flex;
+    }
+}
