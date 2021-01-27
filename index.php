@@ -46,7 +46,7 @@
             <div class='container'>
                 <h2 class='news__title'>Новости</h2>
             </div>
-            <div class='container'>
+            <div class='container d-flex flex-column align-items-center'>
             <div class="row equal">
             <div class="news__card col-xs-12 col-sm-6 col-lg-4">
                     <div class='news__sticker'>
