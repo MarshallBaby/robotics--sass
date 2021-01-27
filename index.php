@@ -47,8 +47,8 @@
                 <h2 class='news__title'>Новости</h2>
             </div>
             <div class='container'>
-            <div class="row">
-            <div class="col-xs-12 col-sm-6 col-lg-4">
+            <div class="row equal">
+            <div class="news__card col-xs-12 col-sm-6 col-lg-4">
                     <div class='news__sticker'>
                         <div class="news__thumb" style="background-image: url(img/news/1.jpg);"></div>
                         <div class='news__help-container'>
@@ -60,7 +60,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-lg-4">
+                <div class="news__card col-xs-12 col-sm-6 col-lg-4">
                     <div class='news__sticker'>
                         <div class="news__thumb" style="background-image: url(img/news/1.jpg);"></div>
                         <div class='news__help-container'>
@@ -72,7 +72,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-lg-4">
+                <div class="news__card col-xs-12 col-sm-6 col-lg-4">
+                    <div class='news__sticker'>
+                        <div class="news__thumb" style="background-image: url(img/news/1.jpg);"></div>
+                        <div class='news__help-container'>
+                        <h3 class='news__subtitle'>Arduino Day 2014</h3>
+                        <div class='news__descr'>19-23 мая 2015 года в Казани (Россия) прошел чемпионат по профессиональному мастерству «WorldSkills СНГ». Наши ребята заняли второе место!</div>
+                        <div class='news__more'>
+                            <a href="#">Подробнее</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="news__card d-none d-sm-flex d-lg-none col-xs-12 col-sm-6 col-lg-4">
                     <div class='news__sticker'>
                         <div class="news__thumb" style="background-image: url(img/news/1.jpg);"></div>
                         <div class='news__help-container'>
@@ -92,6 +104,7 @@
             </div>
         </section>
     </div>
+    <script src="script/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 
