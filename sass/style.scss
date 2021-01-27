@@ -183,6 +183,7 @@ body {
         font-size: 21px;
         font-weight: 300;
         color: $robotics-accent;
+        margin-top: auto;
     }
     &__all-news {
         a {
@@ -196,7 +197,13 @@ body {
         sans-serif;
         font-weight: 300;
         font-size: 21px;
-        background-color: red;
+        background-color: $robotics-white;
+        border-top: 1px solid $robotics-dark;
+        border-bottom: 1px solid $robotics-dark;
+        cursor: pointer;
+        transition: 0.3s all ease;
+        text-decoration-color: $robotics-accent;
+        padding: 15px 0px 15px 0px;
 
     }
 }
@@ -255,6 +262,14 @@ body {
             }
         }
     }
+    .news{
+        &__all-news{
+            &:hover{
+                background-color: $robotics-white-hover;
+                text-decoration: underline;
+            }
+        }
+    }
 }
 
 @media (min-width: $bootstrap-lx-breakpoint) {
@@ -297,6 +312,7 @@ body {
         &__sticker{
             min-height: 426px;
         }
+       
     }
 }
 

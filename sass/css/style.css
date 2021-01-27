@@ -153,6 +153,7 @@ body {
   font-size: 21px;
   font-weight: 300;
   color: #2177A8;
+  margin-top: auto;
 }
 .news__more a {
   color: #2177A8;
@@ -164,7 +165,13 @@ body {
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
   font-size: 21px;
-  background-color: red;
+  background-color: #FCFCFC;
+  border-top: 1px solid #3F3F3F;
+  border-bottom: 1px solid #3F3F3F;
+  cursor: pointer;
+  transition: 0.3s all ease;
+  text-decoration-color: #2177A8;
+  padding: 15px 0px 15px 0px;
 }
 .news__all-news a {
   text-decoration: none;
@@ -219,6 +226,11 @@ body {
   }
   .card__history i {
     font-size: 12px;
+  }
+
+  .news__all-news:hover {
+    background-color: #F0F0F0;
+    text-decoration: underline;
   }
 }
 @media (min-width: 1200px) {

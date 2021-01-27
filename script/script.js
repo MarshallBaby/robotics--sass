@@ -1,13 +1,19 @@
+let fullWidther = (obj, limit) => {
+    let sw = screen.width;
+    if(sw < limit){
+        obj.style.width = sw + "px";
+    }else{
+        obj = limit = "px";
+    }
+}
+
 function ready() {
+    fullWidther(document.querySelectorAll(".news__all-news")[0], 1400);
     
     window.addEventListener('resize', function(event) {
-        let sw = screen.width;
-        if(sw < 1400){
-            document.querySelectorAll(".news__all-news")[0].style.width = sw + "px";
-        }else{
-            document.querySelectorAll(".news__all-news")[0].style.width = "1400px";
-        }
+        fullWidther(document.querySelectorAll(".news__all-news")[0], 1400);
     });
+    console.log(typeof(document.querySelectorAll(".news__all-news")[0]));
 }
 
 document.addEventListener("DOMContentLoaded", ready);
