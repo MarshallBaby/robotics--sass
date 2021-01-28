@@ -111,16 +111,42 @@
                 </div>
                 <a class='partners__link' href='#'>Как стать партнером</a>
                 <div class='partners__wrapper'>
-                <div class='row'>
-                    <div class='col-sm-12'>
+                <div class='row '>
+                    <div class='justify-content-center d-flex flex-wrap col-sm-12 col-md-6 col-lg-4'>
                         <div class='partners__item'>
                            <div class='partners__logo'>
-                           <div class="partners__thumb" style="background-image: url(img/news/1.jpg);"></div>
+                                <img src="img/patners/logo-savushkin-produkt.png" alt="partners">
                            </div>
-                           <div class='partners__company'></div>
+                           <div class='partners__company'>
+                           ООО Системы промышленной автоматизации
+                           </div>
+                        </div>
+                    </div>
+                    <div class='justify-content-center d-flex flex-wrap col-sm-12 col-md-6 col-lg-4'>
+                        <div class='partners__item'>
+                           <div class='partners__logo'>
+                                <img src="img/patners/logo-savushkin-produkt.png" alt="partners">
+                           </div>
+                           <div class='partners__company'>
+                           ООО Системы промышленной автоматизации
+                           </div>
+                        </div>
+                    </div>
+                    <div class='justify-content-center d-flex flex-wrap col-sm-12 col-md-6 col-lg-4'>
+                        <div class='partners__item'>
+                           <div class='partners__logo'>
+                                <img src="img/patners/logo-savushkin-produkt.png" alt="partners">
+                           </div>
+                           <div class='partners__company'>
+                           ООО Системы промышленной автоматизации
+                           </div>
                         </div>
                     </div>
                 </div>
+                <div class='partners__full-list'>
+                    <a href="#">полный список</a>
+                </div>
+                <hr class='partners__line'>
                 </div>
                 
             </div>

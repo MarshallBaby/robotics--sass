@@ -26,9 +26,12 @@ function LinksDataConstructor(title, descr) {
 
 function ready() {
     fullWidther(document.querySelectorAll(".news__all-news")[0], 1400);
+    // fullWidther(document.querySelectorAll(".partners__line")[0], 1400);
+
 
     window.addEventListener('resize', function(event) {
         fullWidther(document.querySelectorAll(".news__all-news")[0], 1400);
+        // fullWidther(document.querySelectorAll(".partners__line")[0], 1400);
     });
 
     links = document.getElementsByClassName('links__item');
