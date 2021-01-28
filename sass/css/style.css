@@ -6,6 +6,25 @@ body {
   overflow-x: hidden;
 }
 
+.header {
+  width: 100%;
+  height: 50px;
+}
+.header .container {
+  height: 100%;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0px;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background-color: red;
+  transition: 0.3s all ease;
+}
+
 .card {
   margin-top: 30px;
   margin-bottom: 30px;

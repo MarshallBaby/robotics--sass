@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <?php @include "header.php" ?>
     <div class="container">
         <section class="card">
             <div class="card__background"></div>
