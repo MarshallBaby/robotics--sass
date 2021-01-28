@@ -3,6 +3,7 @@
 body {
   background-color: #FCFCFC;
   min-width: 300px;
+  overflow-x: hidden;
 }
 
 .card {
@@ -166,8 +167,8 @@ body {
   font-weight: 300;
   font-size: 21px;
   background-color: #FCFCFC;
-  border-top: 1px solid #3F3F3F;
-  border-bottom: 1px solid #3F3F3F;
+  border-top: 1px solid #3f3f3f34;
+  border-bottom: 1px solid #3F3F3F34;
   cursor: pointer;
   transition: 0.3s all ease;
   text-decoration-color: #2177A8;
@@ -176,6 +177,51 @@ body {
 .news__all-news a {
   text-decoration: none;
   color: #2177A8;
+}
+
+.links {
+  margin: 30px 0 30px 0;
+}
+.links__title {
+  font-family: "Cabin", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  color: #2177A8;
+  margin-bottom: 30px;
+  user-select: none;
+}
+.links__subtitle {
+  font-style: "Raleway", sans-serif;
+  font-size: 49px;
+  font-weight: 400;
+}
+.links__wrapper {
+  margin-top: 30px;
+}
+.links__descr {
+  font-style: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+.links__item {
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  width: 275px;
+  height: 48px;
+  box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  margin-bottom: 15px;
+  font-style: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.links__item_active {
+  background-color: #2177A8;
+  color: #FCFCFC;
 }
 
 @media (min-width: 567px) {

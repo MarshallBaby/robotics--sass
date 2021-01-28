@@ -38,6 +38,7 @@ $shadow-sticker: 0px 4px 11px 0px rgba(0,
 body {
     background-color: $robotics-white;
     min-width: 300px;
+    overflow-x: hidden;
 }
 
 .card {
@@ -138,9 +139,9 @@ body {
 
 .news {
     margin: $margin 0 $margin 0;
-    &__card{
+    &__card {
         display: flex;
-        flex:1 0 auto;
+        flex: 1 0 auto;
     }
     &__thumb {
         height: 171px;
@@ -198,13 +199,52 @@ body {
         font-weight: 300;
         font-size: 21px;
         background-color: $robotics-white;
-        border-top: 1px solid $robotics-dark;
-        border-bottom: 1px solid $robotics-dark;
+        border-top: 1px solid #3f3f3f34;
+        border-bottom: 1px solid #3F3F3F34;
         cursor: pointer;
         transition: 0.3s all ease;
         text-decoration-color: $robotics-accent;
         padding: 15px 0px 15px 0px;
+    }
+}
 
+.links {
+    margin: $margin 0 $margin 0;
+    &__title {
+        @include subtitles;
+    }
+    &__subtitle {
+        font-style: 'Raleway', sans-serif;
+        font-size: 49px;
+        font-weight: 400;
+    }
+    &__wrapper {
+        margin-top: $margin;
+    }
+    &__descr {
+        font-style: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__item {
+        &_active {
+            background-color: $robotics-accent;
+            color: $robotics-white;
+        }
+        cursor: pointer;
+        user-select: none;
+        display: flex;
+        align-items: center;
+        padding-left: 16px;
+        width: 275px;
+        height: 48px;
+        box-shadow: $shadow-sticker;
+        border-radius: $border-radius;
+        margin-bottom: 15px;
+        font-style: 'Raleway',
+        sans-serif;
+        font-size: 14px;
+        font-weight: 400;
     }
 }
 
@@ -262,9 +302,9 @@ body {
             }
         }
     }
-    .news{
-        &__all-news{
-            &:hover{
+    .news {
+        &__all-news {
+            &:hover {
                 background-color: $robotics-white-hover;
                 text-decoration: underline;
             }
@@ -308,11 +348,9 @@ body {
             }
         }
     }
-    .news{
-        &__sticker{
+    .news {
+        &__sticker {
             min-height: 426px;
         }
-       
     }
 }
-
