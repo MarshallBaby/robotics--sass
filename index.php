@@ -149,8 +149,25 @@
                 </div>
                 <hr class='partners__line'>
                 </div>
-                
             </div>
+        </section>
+        <section class='excursion'>
+            <div class='container'>
+                <h2 class='excursion__title'>Экскурсии</h2>
+            </div>
+            <div class='row justify-content-around'>
+                <div class=' flex-wrap d-flex justify-content-center col-sm-12 col-md-4 col-lg-4'>
+                    <div class='excursion__item'>Онлайн-экскурсия</div>
+                </div>
+                <div class=' flex-wrap d-flex justify-content-center col-sm-12 col-md-4 col-lg-4'>
+                    <div class='excursion__item'>Онлайн-экскурсия</div>
+                </div>
+                <div class=' flex-wrap d-flex justify-content-center col-sm-12 col-md-4 col-lg-4'>
+                    <div class='excursion__item'>Онлайн-экскурсия</div>
+                </div>
+            </div>
+            <hr class='excursion__line'>
+            
         </section>
         <section? class='links'>
             <div class='container'>

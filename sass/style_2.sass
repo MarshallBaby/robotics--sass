@@ -11,14 +11,8 @@ $bootstrap-lx-breakpoint: 1200px
 $bootstrap-xxl-breakpoint: 1400px
 $border-radius: 14px
 $margin: 30px
-$shadow: 9px 7px 11px -8px rgba(0,
-0,
-0,
-0.47)
-$shadow-sticker: 0px 4px 11px 0px rgba(0,
-0,
-0,
-0.25)
+$shadow: 9px 7px 11px -8px rgba(0, 0, 0, 0.47)
+$shadow-sticker: 0px 4px 11px 0px rgba(0, 0, 0, 0.25)
 @mixin background-settings 
     background-position: center
     background-repeat: no-repeat
@@ -85,7 +79,7 @@ body
         left: 0
         width: 10
         height: 10
-        background-image: url(../../img/cover.jpg
+        background-image: url(../../img/cover.jpg)
         @include background-setting
         opacity: 0.5
         z-index: 
@@ -460,6 +454,30 @@ body
                 &__history {
                     display: none;
                     &_hidden {
+                        display: flex;
+                        margin-left: 25px;
+                        margin-top: 33px;
+              } 
+               }
+                  }
+             .news {
+                &__sticker {
+                    min-height: 426px;
+            }
+           }
+        }                    &_hidden {
+                        display: flex;
+                        margin-left: 25px;
+                        margin-top: 33px;
+              } 
+               }
+                  }
+             .news {
+                &__sticker {
+                    min-height: 426px;
+            }
+           }
+        }                    &_hidden {
                         display: flex;
                         margin-left: 25px;
                         margin-top: 33px;
