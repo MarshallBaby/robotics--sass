@@ -42,5 +42,5 @@ function ready() {
     }
 
 }
-
+console.log('pizza');
 document.addEventListener("DOMContentLoaded", ready);
