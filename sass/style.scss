@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Raleway:wght@100;200;400;500;600&family=Roboto:wght@100;300;500;700&display=swap');
 $robotics-white: #FCFCFC;
 $robotics-white-hover: #F0F0F0;
@@ -49,14 +49,14 @@ body {
     height: 50px;
 }
 
-.mobile-menu{
+.mobile-menu {
     position: fixed;
     top: 0px;
     left: 100%;
     width: 100%;
     height: 100%;
     z-index: 100;
-    background-color: red;
+    background-color: $robotics-dark;
     transition: 0.3s all ease;
 }
 
@@ -126,6 +126,9 @@ body {
         font-weight: 300;
         user-select: none;
         cursor: pointer;
+        &:hover {
+            background-color: #F0F0F0;
+        }
     }
     &__media {
         margin-top: 20px;
@@ -227,235 +230,244 @@ body {
     }
 }
 
-.links {
+.excursion {
     margin: $margin 0 $margin 0;
     &__title {
         @include subtitles;
     }
-    &__subtitle {
-        font-family: 'Raleway', sans-serif;
-        font-size: 49px;
-        font-weight: 400;
-    }
-    &__wrapper {
-        margin-top: $margin;
-    }
-    &__descr {
-        font-family: 'Roboto', sans-serif;
-        font-size: 14px;
-        font-weight: 300;
-    }
     &__item {
-        &_active {
-            @media (min-width: 992px) {
-                background-color: $robotics-accent;
-                color: $robotics-white;
-            }
-        }
-        cursor: pointer;
-        user-select: none;
-        display: flex;
-        align-items: center;
-        padding-left: 16px;
-        max-width: 275px;
-        height: 48px;
+        width: 327px;
+        height: 177px;
+        @include background-settings;
+        background-image: url(../../img/cover.jpg);
+        border-radius: 7px;
         box-shadow: $shadow-sticker;
-        border-radius: $border-radius;
-        margin-bottom: 15px;
-        font-family: 'Raleway',
-        sans-serif;
-        font-size: 14px;
-        font-weight: 400;
+        margin-bottom: 35px;
+            margin: $margin 0 $margin 0;
+            &__title {
+                @include subtitles;
+        }
+                &__subtitle {
+                font-family: 'Raleway', sans-serif;
+                font-size: 49px;
+                font-weight: 400;
     }
-}
-
-.partners {
-    margin: $margin 0 $margin 0;
-    &__title {
-        @include subtitles;
-    }
-    &__descr {
-        font-family: "Roboto", sans-serif;
-        font-size: 14px;
-        font-weight: 300;
-        line-height: 16px;
-    }
-    &__link {
-        display: inline-block;
-        margin-top: 15px;
-    }
-    &__wrapper {
-        margin-top: $margin;
-    }
-    &__item {
-        margin-bottom: 36px;
-        overflow: hidden;
-        width: 331px;
-        height: 188px;
-        box-shadow: $shadow-sticker;
-        border-radius: $border-radius;
-    }
-    &__logo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 130px;
-        img {
-            max-width: 40%;
-            cursor: pointer;
+                    &__wrapper {
+                margin-top: $margin;
         }
-    }
-    &__company {
-        padding: 0px 21px 0px 21px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: 'Raleway', sans-serif;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 16px;
-        text-align: center;
-        background-color: $robotics-accent;
-        height: 58px;
-        color: $robotics-white;
-    }
-    &__full-list {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 12px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        box-shadow: $shadow-sticker;
-        border-radius: $border-radius;
-        max-width: 324px;
-        height: 53px;
-        background-color: $robotics-white;
-        transition: 0.3s all ease;
-        a {
-            text-decoration: none;
-            color: $robotics-dark;
-        }
-        cursor: pointer;
-        @media (min-width: $bootstrap-lg-breakpoint) {
-            &:hover {
-                background-color: $robotics-white-hover;
-            }
-        }
-    }
-    &__line {
-        // border: 1px solid rgba(63, 63, 63, 0.1);
-        // box-shadow: $shadow-sticker;
-        opacity: 0.3;
-        color: $robotics-dark;
-        width: 100%;
-        height: 1px;
-    }
-}
-
-@media (min-width: $bootstrap-sm-breakpoint) {
-    .card {
-        &__title {
-            padding-right: 20%;
-        }
-        &__descr {
-            padding-right: 20%;
-        }
-    }
-}
-
-@media (min-width: $bootstrap-lg-breakpoint) {
-    .card {
-        padding-left: 40px;
-        &__title {
-            font-size: 36px;
-        }
-        &__descr {
-            font-size: 21px;
-            margin-top: 25px;
-            line-height: 25px;
-            padding-right: 25%;
-        }
-        &__button {
-            width: 235px;
-            height: 54px;
-            font-size: 18px;
-        }
-        &__media {
-            i {
-                font-size: 25px;
-                padding-right: 10px;
-                transition: 0.3s all ease;
-            }
-            .bi-facebook:hover {
-                color: #3b5998;
-            }
-            .bi-instagram:hover {
-                color: #c32aa3;
-            }
-            .bi-telegram:hover {
-                color: #0088cc;
-            }
-            .bi-youtube:hover {
-                color: #ff0000;
-            }
-        }
-        &__history {
-            font-size: 18px;
-            i {
-                font-size: 12px;
-            }
-        }
-    }
-    .news {
-        &__all-news {
-            &:hover {
-                background-color: $robotics-white-hover;
-                text-decoration: underline;
-            }
-        }
-    }
-}
-
-@media (min-width: $bootstrap-lx-breakpoint) {
-    .card {
-        padding-left: 60px;
-        padding-top: 80px;
-        padding-bottom: 80px;
-        &__title {
-            padding-right: 35%;
-        }
-        &__descr {
-            padding-right: 40%;
-            font-size: 18px;
-            margin-top: 25px;
-            line-height: 20px;
-        }
-        &__button {
-            transition: 0.3s all ease;
-            &:hover {
-                background-color: $robotics-white-hover;
-            }
-            // width: 200px;
-            // height: 50px;
-        }
-        &__media {
-            i {
-                font-size: 20px;
-            }
-        }
-        &__history {
-            display: none;
-            &_hidden {
+                &__descr {
+                font-family: 'Roboto', sans-serif;
+                font-size: 14px;
+                font-weight: 300;
+           }
+             &__item {
+                &_active {
+                    @media (min-width: 992px) {
+                        background-color: $robotics-accent;
+                        color: $robotics-white;
+               }
+               }
+                      cursor: pointer;
+                user-select: none;
                 display: flex;
-                margin-left: 25px;
-                margin-top: 33px;
+                align-items: center;
+                padding-left: 16px;
+                max-width: 275px;
+                height: 48px;
+                box-shadow: $shadow-sticker;
+                border-radius: $border-radius;
+                margin-bottom: 15px;
+                font-family: 'Raleway',
+                sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+    }
+        }
+                
+            margin: $margin 0 $margin 0;
+            &__title {
+                @include subtitles;
+            }
+            &__descr {
+                font-family: "Roboto", sans-serif;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 16px;
+            }
+            &__link {
+                display: inline-block;
+                margin-top: 15px;
+            }
+            &__wrapper {
+                margin-top: $margin;
+      }
+                  &__item {
+                margin-bottom: 36px;
+                overflow: hidden;
+                width: 331px;
+                height: 188px;
+                box-shadow: $shadow-sticker;
+                border-radius: $border-radius;
+       }
+                 &__logo {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 130px;
+                img {
+                    max-width: 40%;
+                    cursor: pointer;
+          }
+            }
+                  &__company {
+                padding: 0px 21px 0px 21px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: 'Raleway', sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 16px;
+                text-align: center;
+                background-color: $robotics-accent;
+                height: 58px;
+                color: $robotics-white;
+         }
+               &__full-list {
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 12px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                box-shadow: $shadow-sticker;
+                border-radius: $border-radius;
+                max-width: 324px;
+                height: 53px;
+                background-color: $robotics-white;
+                transition: 0.3s all ease;
+                a {
+                    text-decoration: none;
+                    color: $robotics-dark;
+            }
+                    cursor: pointer;
+                @media (min-width: $bootstrap-lg-breakpoint) {
+                    &:hover {
+                        background-color: $robotics-white-hover;
+                   }
+               }
+           }
+               &__line {
+                // border: 1px solid rgba(63, 63, 63, 0.1);
+                // box-shadow: $shadow-sticker;
+                opacity: 0.3;
+                color: $robotics-dark;
+                width: 100%;
+                height: 1px;
+    }
+        }
+                
+            .card {
+                &__title {
+                    padding-right: 20%;
+               }
+                 &__descr {
+                    padding-right: 20%;
+        }
             }
         }
-    }
-    .news {
-        &__sticker {
-            min-height: 426px;
+                
+            .card {
+                padding-left: 40px;
+                &__title {
+                    font-size: 36px;
+                }
+                &__descr {
+                    font-size: 21px;
+                    margin-top: 25px;
+                    line-height: 25px;
+                    padding-right: 25%;
         }
-    }
-}
+                        &__button {
+                    width: 235px;
+                    height: 54px;
+                    font-size: 18px;
+           }
+                     &__media {
+                    i {
+                        font-size: 25px;
+                        padding-right: 10px;
+                        transition: 0.3s all ease;
+                 }
+                       .bi-facebook:hover {
+                        color: #3b5998;
+               }
+                         .bi-instagram:hover {
+                        color: #c32aa3;
+                   }
+                     .bi-telegram:hover {
+                        color: #0088cc;
+                 }
+                       .bi-youtube:hover {
+                        color: #ff0000;
+              }
+                      }
+                &__history {
+                    font-size: 18px;
+                    i {
+                        font-size: 12px;
+            }
+                }
+            }
+                    .news {
+                &__all-news {
+                    &:hover {
+                        background-color: $robotics-white-hover;
+                        text-decoration: underline;
+            }
+                }
+            }
+        }
+                
+@media (min-width: $bootstrap-lx-breakpoint) {
+            .card {
+                padding-left: 60px;
+                padding-top: 80px;
+                padding-bottom: 80px;
+                &__title {
+                    padding-right: 35%;
+                }
+                &__descr {
+                    padding-right: 40%;
+                    font-size: 18px;
+                    margin-top: 25px;
+                    line-height: 20px;
+                }
+                &__button {
+                    transition: 0.3s all ease;
+                    &:hover {
+                        background-color: $robotics-white-hover;
+            }
+                            // width: 200px;
+                    // height: 50px;
+             }
+                   &__media {
+                    i {
+                        font-size: 20px;
+              }
+                      }
+                &__history {
+                    display: none;
+                    &_hidden {
+                        display: flex;
+                        margin-left: 25px;
+                        margin-top: 33px;
+              }
+               }
+                  }
+             .news {
+                &__sticker {
+                    min-height: 426px;
+            }
+           }
+       }              
