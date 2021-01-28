@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Raleway:wght@100;200;400;500;600&family=Roboto:wght@100;300;500;700&display=swap')
+$robotics-white: #FCFCFC
+$robotics-white-hover: #F0F0F0
+$robotics-dark: #3F3F3F
+$robotics-accent: #2177A8
+$bootstrap-sm-breakpoint: 567px
+$bootstrap-md-breakpoint: 768px
+$bootstrap-lg-breakpoint: 992px
+$bootstrap-lx-breakpoint: 1200px
+$bootstrap-xxl-breakpoint: 1400px
+$border-radius: 14px
+$margin: 30px
+$shadow: 9px 7px 11px -8px rgba(0,
+0,
+0,
+0.47)
+$shadow-sticker: 0px 4px 11px 0px rgba(0,
+0,
+0,
+0.25)
+@mixin background-settings 
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+
+
+@mixin subtitles
+    font-family: 'Cabin', sans-serif
+    font-style: normal
+    font-weight: 600
+    font-size: 35px
+    color: $robotics-accent
+    margin-bottom: $margin
+    user-select: none
+
+
+body 
+    background-color: $robotics-white
+    min-width: 300px
+    overflow-x: hidden
+
+
+.header 
+    .container 
+        height: 100%
+   
+        width: 100%
+        height: 50px
+
+
+.mobile-menu 
+    position: fixed
+    top: 0px
+    left: 100%
+    width: 100%
+    height: 100%
+    z-index: 100
+    background-color: $robotics-dark
+    transition: 0.3s all 
+
+
+.ca
+    .abo
+        display: f
+    margin-top: 3
+    margin-bottom: $mar
+    display: f
+    flex-direction: col
+    width: 1
+    padding: 49px 27px 35px 2
+    position: relat
+    border-radius: $border-rad
+    overflow: hid
+    background-color: #192
+    color: $robotics-wh
+    border: 0px solid #FFFF
+    // -webkit-box-shadow: -2px 1px 11px -2px rgba(0, 0, 0, 0.49);
+    // -moz-box-shadow: -2px 1px 11px -2px rgba(0, 0, 0, 0.49);
+    box-shadow: $shad
+    display: fl
+    &__backgroun
+        position: absolu
+        top: 0
+        left: 0
+        width: 10
+        height: 10
+        background-image: url(../../img/cover.jpg
+        @include background-setting
+        opacity: 0.5
+        z-index: 
+
+    &__wrapper
+        display: fle
+
+    &__title
+        font-family: "Cabin", sans-seri
+        font-size: 28p
+        font-weight: 60
+
+    * 
+        z-index: 2
+    
+    &__descr {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    &__button {
+        margin-top: 32px;
+        background: $robotics-white;
+        width: 197px;
+        height: 44px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+        color: $robotics-dark;
+        font-size: 14px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        user-select: none;
+        cursor: pointer;
+        &:hover {
+            background-color: #F0F0F0;
+        }
+    }
+    &__media {
+        margin-top: 20px;
+        display: flex;
+        i {
+            cursor: pointer;
+            padding-right: 7px;
+        }
+    }
+    &__history {
+        text-decoration: none;
+        color: $robotics-white;
+        margin-top: 20px;
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        i {
+            font-size: 8px;
+            margin-left: 3px;
+        }
+        &_hidden {
+            display: none;
+        }
+    }
+}
+
+.news {
+    margin: $margin 0 $margin 0;
+    &__card {
+        display: flex;
+        flex: 1 0 auto;
+    }
+    &__thumb {
+        height: 171px;
+        @include background-settings;
+        cursor: pointer;
+    }
+    &__help-container {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+    }
+    &__title {
+        @include subtitles;
+    }
+    &__subtitle {
+        margin-top: 20px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 21px;
+        font-weight: 200;
+    }
+    &__sticker {
+        box-shadow: $shadow-sticker;
+        border-radius: $border-radius;
+        overflow: hidden;
+        margin-bottom: $margin;
+    }
+    &__descr {
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 200;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    &__more {
+        a {
+            color: $robotics-accent;
+        }
+        font-family: 'Raleway',
+        sans-serif;
+        font-size: 21px;
+        font-weight: 300;
+        color: $robotics-accent;
+        margin-top: auto;
+    }
+    &__all-news {
+        a {
+            text-decoration: none;
+            color: $robotics-accent;
+        }
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        font-family: 'Ubuntu',
+        sans-serif;
+        font-weight: 300;
+        font-size: 21px;
+        background-color: $robotics-white;
+        border-top: 1px solid #3f3f3f34;
+        border-bottom: 1px solid #3F3F3F34;
+        cursor: pointer;
+        transition: 0.3s all ease;
+        text-decoration-color: $robotics-accent;
+        padding: 15px 0px 15px 0px;
+    }
+}
+
+.excursion {
+    margin: $margin 0 $margin 0;
+    &__title {
+        @include subtitles;
+    }
+    &__item {
+        width: 327px;
+        height: 177px;
+        @include background-settings;
+        background-image: url(../../img/cover.jpg);
+        border-radius: 7px;
+        box-shadow: $shadow-sticker;
+        margin-bottom: 35px;
+    }
+    
+            &__title {
+                @include subtitles;
+        }
+                &__subtitle {
+                font-family: 'Raleway', sans-serif;
+                font-size: 49px;
+                font-weight: 400;
+    }
+                    &__wrapper {
+                margin-top: $margin;
+        }
+                &__descr {
+                font-family: 'Roboto', sans-serif;
+                font-size: 14px;
+                font-weight: 300;
+           }
+             &__item {
+                &_active {
+                    @media (min-width: 992px) {
+                        background-color: $robotics-accent;
+                        color: $robotics-white;
+               }
+               }
+                      cursor: pointer;
+                user-select: none;
+                display: flex;
+                align-items: center;
+                padding-left: 16px;
+                max-width: 275px;
+                height: 48px;
+                box-shadow: $shadow-sticker;
+                border-radius: $border-radius;
+                margin-bottom: 15px;
+                font-family: 'Raleway',
+                sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+    }
+        }
+                
+            margin: $margin 0 $margin 0;
+            &__title {
+                @include subtitles;
+            }
+            &__descr {
+                font-family: "Roboto", sans-serif;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 16px;
+            }
+            &__link {
+                display: inline-block;
+                margin-top: 15px;
+            }
+            &__wrapper {
+                margin-top: $margin;
+      }
+                  &__item {
+                margin-bottom: 36px;
+                overflow: hidden;
+                width: 331px;
+                height: 188px;
+                box-shadow: $shadow-sticker;
+                border-radius: $border-radius;
+       }
+                 &__logo {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 130px;
+                img {
+                    max-width: 40%;
+                    cursor: pointer;
+          }
+            }
+                  &__company {
+                padding: 0px 21px 0px 21px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: 'Raleway', sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 16px;
+                text-align: center;
+                background-color: $robotics-accent;
+                height: 58px;
+                color: $robotics-white;
+         }
+               &__full-list {
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 12px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                box-shadow: $shadow-sticker;
+                border-radius: $border-radius;
+                max-width: 324px;
+                height: 53px;
+                background-color: $robotics-white;
+                transition: 0.3s all ease;
+                a {
+                    text-decoration: none;
+                    color: $robotics-dark;
+            }
+                    cursor: pointer;
+                @media (min-width: $bootstrap-lg-breakpoint) {
+                    &:hover {
+                        background-color: $robotics-white-hover;
+                   }
+               }
+           }
+               &__line {
+                // border: 1px solid rgba(63, 63, 63, 0.1);
+                // box-shadow: $shadow-sticker;
+                opacity: 0.3;
+                color: $robotics-dark;
+                width: 100%;
+                height: 1px;
+    }
+        }
+                
+            .card {
+                &__title {
+                    padding-right: 20%;
+               }
+                 &__descr {
+                    padding-right: 20%;
+        }
+            }
+        }
+                
+            .card {
+                padding-left: 40px;
+                &__title {
+                    font-size: 36px;
+                }
+                &__descr {
+                    font-size: 21px;
+                    margin-top: 25px;
+                    line-height: 25px;
+                    padding-right: 25%;
+        }
+                        &__button {
+                    width: 235px;
+                    height: 54px;
+                    font-size: 18px;
+           }
+                     &__media {
+                    i {
+                        font-size: 25px;
+                        padding-right: 10px;
+                        transition: 0.3s all ease;
+                 }
+                       .bi-facebook:hover {
+                        color: #3b5998;
+               }
+                         .bi-instagram:hover {
+                        color: #c32aa3;
+                   }
+                     .bi-telegram:hover {
+                        color: #0088cc;
+                 }
+                       .bi-youtube:hover {
+                        color: #ff0000;
+              }
+                      }
+                &__history {
+                    font-size: 18px;
+                    i {
+                        font-size: 12px;
+            }
+                }
+            }
+                    .news {
+                &__all-news {
+                    &:hover {
+                        background-color: $robotics-white-hover;
+                        text-decoration: underline;
+            }
+                }
+            }
+        
+        }
+                
+@media (min-width: $bootstrap-lx-breakpoint) {
+            .card {
+                padding-left: 60px;
+                padding-top: 80px;
+                padding-bottom: 80px;
+                &__title {
+                    padding-right: 35%;
+                }
+                &__descr {
+                    padding-right: 40%;
+                    font-size: 18px;
+                    margin-top: 25px;
+                    line-height: 20px;
+                }
+                &__button {
+                    transition: 0.3s all ease;
+                    &:hover {
+                        background-color: $robotics-white-hover;
+            }
+                            // width: 200px;
+                    // height: 50px;
+             }
+                   &__media {
+                    i {
+                        font-size: 20px;
+              }
+                      }
+                &__history {
+                    display: none;
+                    &_hidden {
+                        display: flex;
+                        margin-left: 25px;
+                        margin-top: 33px;
+              } 
+               }
+                  }
+             .news {
+                &__sticker {
+                    min-height: 426px;
+            }
+           }
+        }

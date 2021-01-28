@@ -33,14 +33,11 @@ function mobileMenuSwitcher() {
         $("body").css("overflow", "hidden");
     } else {
         $(".mobile-menu")[0].style.left = "100%";
-        $("body").css("overflow", "scroll");
-        console.log("awdawd");
     }
 }
 
 function ready() {
     document.getElementById("mobile-menu-button").addEventListener('click', mobileMenuSwitcher);
-    document.getElementById("mobile-menu-button-exit").addEventListener('click', mobileMenuSwitcher);
 
     fullWidther(document.querySelectorAll(".news__all-news")[0], 1400);
     // fullWidther(document.querySelectorAll(".partners__line")[0], 1400);

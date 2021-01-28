@@ -152,24 +152,6 @@
                 
             </div>
         </section>
-        <section class='excursion'>
-            <div class='container'>
-                <h2 class='excursion__title'>Экскурсии</h2>
-                <div class='excursion__wrapper'>
-                    <div class='row'>
-                        <div class='col-sm-12'>
-                            <div class='excursion__item'></div>
-                        </div>
-                        <div class='col-sm-12'>
-                            <div class='excursion__item'></div>   
-                        </div>
-                        <div class='col-sm-12'>
-                            <div class='excursion__item'></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
         <section? class='links'>
             <div class='container'>
                 <h2 class="links__title">Полезные ссылки</h2>
