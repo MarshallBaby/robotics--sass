@@ -219,9 +219,61 @@ body {
   font-size: 14px;
   font-weight: 400;
 }
-.links__item_active {
+@media (min-width: 992px) {
+  .links__item_active {
+    background-color: #2177A8;
+    color: #FCFCFC;
+  }
+}
+
+.partners {
+  margin: 30px 0 30px 0;
+}
+.partners__title {
+  font-family: "Cabin", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  color: #2177A8;
+  margin-bottom: 30px;
+  user-select: none;
+}
+.partners__descr {
+  font-style: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.partners__link {
+  display: inline-block;
+  margin-top: 15px;
+}
+.partners__wrapper {
+  margin-top: 30px;
+}
+.partners__item {
+  overflow: hidden;
+  width: 331px;
+  height: 188px;
+  box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+}
+.partners__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+}
+.partners__thumb {
+  height: 119px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+.partners__company {
   background-color: #2177A8;
-  color: #FCFCFC;
+  height: 58px;
 }
 
 @media (min-width: 567px) {

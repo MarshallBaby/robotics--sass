@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link href="sass/css/style.css" rel="stylesheet">
-
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
 </head>
 
 <body>
@@ -103,24 +103,46 @@
                 </div>
             </div>
         </section>
-        <section class='links'>
+        <section class='partners'>
+            <div class='container'>
+                <h2 class ='partners__title'>Наши партнеры</h2>
+                <div class='partners__descr'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                
+                </div>
+                <a class='partners__link' href='#'>Как стать партнером</a>
+                <div class='partners__wrapper'>
+                <div class='row'>
+                    <div class='col-sm-12'>
+                        <div class='partners__item'>
+                           <div class='partners__logo'>
+                           <div class="partners__thumb" style="background-image: url(img/news/1.jpg);"></div>
+                           </div>
+                           <div class='partners__company'></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                
+            </div>
+        </section>
+        <section? class='links'>
             <div class='container'>
                 <h2 class="links__title">Полезные ссылки</h2>
                 <div class="container">
                     <div class='row'>
                         <div class='col-sm-12 col-lg-4 col-xl-4 col-xxl-3'>
                             <div class='links__wrapper'>
-                                <div class='links__item links__item_active'>
-                                    RoboRace
+                                <div data-title="RoboRace" class='links__item links__item_active'>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum animi commodi dolore sit iusto est reiciendis minus in ut, necessitatibus doloremque magnam aliquam quae! Corporis illum voluptas incidunt facilis porro.
                                 </div>
-                                <div class='links__item'>
-                                    TowerLight Urcap
+                                <div data-title="TowerLight Urcap" class='links__item'>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur quibusdam ea doloribus aperiam maxime vel officiis quidem, doloremque recusandae maiores. Cupiditate beatae doloremque voluptates sequi magnam? Facere reiciendis molestiae voluptate?
                                 </div>
-                                <div class='links__item'>
-                                    WIKI
+                                <div data-title="WIKI" class='links__item'>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In a vitae nemo nostrum beatae! Vero iste, iure et exercitationem asperiores ullam saepe cupiditate, ducimus repellat magni repudiandae. Quaerat, facilis suscipit.
                                 </div>
-                                <div class='links__item'>
-                                    RAIPAP
+                                <div data-title="RAIPAP" class='links__item'>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, ipsam est nam, modi sunt id minus assumenda nobis aliquam iste cum nisi officia dolor minima quasi? Quos nostrum expedita a.
                                 </div>
                             </div>
 
@@ -128,7 +150,7 @@
                         <div class='offset-lg-1 col-lg-7 offset-xl-0 col-xl-6 col-xxl-6 d-none d-lg-flex'>
                             <div class="links__info">
                                 <div class='links__subtitle'>RoboRace</div>
-                                <div class='Links__desrc'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</div>
+                                <div class='links__desrc'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</div>
                             </div>
                         </div>
 

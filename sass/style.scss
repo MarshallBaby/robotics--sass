@@ -228,8 +228,10 @@ body {
     }
     &__item {
         &_active {
-            background-color: $robotics-accent;
-            color: $robotics-white;
+            @media (min-width: 992px) {
+                background-color: $robotics-accent;
+                color: $robotics-white;
+            }
         }
         cursor: pointer;
         user-select: none;
@@ -245,6 +247,50 @@ body {
         sans-serif;
         font-size: 14px;
         font-weight: 400;
+    }
+}
+
+.partners {
+    margin: $margin 0 $margin 0;
+    &__title {
+        @include subtitles;
+    }
+    &__descr {
+        font-style: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+    &__link {
+        display: inline-block;
+        margin-top: 15px;
+    }
+    &__wrapper {
+        margin-top: $margin;
+    }
+    &__item {
+        overflow: hidden;
+        width: 331px;
+        height: 188px;
+        box-shadow: $shadow-sticker;
+        border-radius: $border-radius;
+    }
+    &__logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 130px;
+    }
+    &__thumb {
+        height: 119px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        cursor: pointer;
+    }
+    &__company {
+        background-color: $robotics-accent;
+        height: 58px;
     }
 }
 
