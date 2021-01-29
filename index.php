@@ -223,7 +223,7 @@
             <hr class='excursion__line'>
             
         </section>
-        <section? class='links'>
+        <section class='links mb-5'>
             <div class='container'>
                 <h2 class="links__title">Полезные ссылки</h2>
                 <div class="container">

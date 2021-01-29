@@ -54,6 +54,29 @@ body {
     }
     width: 100%;
     height: 50px;
+    &__list {
+        li:last-child {
+            margin-left: auto;
+        }
+        list-style-type: none;
+        a {
+            @media (min-width: $bootstrap-lg-breakpoint) {
+                font-size: 18px;
+            }
+            text-decoration: none;
+            color: $robotics-dark;
+            margin-right: 10px;
+            font-family: "Raleway",
+            sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            transition: 0.3s all ease;
+            cursor: pointer;
+            &:hover {
+                color: $robotics-accent;
+            }
+        }
+    }
 }
 
 .mobile-menu {
@@ -173,7 +196,12 @@ body {
             margin-left: 3px;
         }
         &_hidden {
+            user-select: none;
             display: none;
+            transition: 0.3s all ease;
+            &:hover {
+                color: $robotics-accent;
+            }
         }
     }
 }
@@ -267,7 +295,9 @@ body {
         // background-color: red;
         // height: 100px;
         width: 100vw;
-        max-width: 1296px !important;
+        @media (min-width: $bootstrap-lx-breakpoint) {
+            max-width: 100% !important;
+        }
         margin-top: 37px;
         margin-bottom: $margin;
     }

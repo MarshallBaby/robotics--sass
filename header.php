@@ -1,8 +1,16 @@
 <header class="header">
-    <div id="mobile-menu-button" class="container pt-2 d-flex justify-content-between align-items-center">
-    <img class="mh-100 " src="img/logo.png" alt="logo">
-    
-        <i class="bi bi-three-dots-vertical d-md-none"></i>
+    <div class="container mt-lg-3 mb-lg-3 pt-2 d-flex justify-content-between justify-content-md-start align-items-center">
+        <img class="mh-100" src="img/logo.png" alt="logo">
+        <ul class="header__list col-md-auto d-none d-md-flex justify-row align-items-center ml-lg-3 mb-0 mt-0 h-100">
+        <li><a href="#"> О нас </a> </li>
+            <li><a href="#"> Новости </a> </li>
+            <li><a href="#"> Проекты </a> </li>
+            <li><a href="#"> Сотрудничество </a> </li>
+            <li><a href="#"> Экскурсии </a> </li>
+            <li><a href="#"> Wiki </a> </li>
+
+        </ul>
+        <i id="mobile-menu-button" class="bi bi-three-dots-vertical d-md-none"></i>
     </div>
 </header>
 <section class="mobile-menu container d-md-none">
