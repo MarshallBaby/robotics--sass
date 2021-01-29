@@ -71,6 +71,15 @@ body {
         font-size: 54px;
         color: $robotics-white;
     }
+    &__list {
+        margin-left: 15px;
+        list-style-type: none;
+        a {
+            text-decoration: none;
+            color: $robotics-white;
+            font-size: 18px;
+        }
+    }
 }
 
 .card {

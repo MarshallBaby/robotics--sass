@@ -30,6 +30,15 @@ body {
   font-size: 54px;
   color: #FCFCFC;
 }
+.mobile-menu__list {
+  margin-left: 15px;
+  list-style-type: none;
+}
+.mobile-menu__list a {
+  text-decoration: none;
+  color: #FCFCFC;
+  font-size: 18px;
+}
 
 .card {
   margin-top: 30px;

@@ -63,7 +63,7 @@
                     </div>
                     <div class="news__card col-xs-12 col-sm-6 col-lg-4">
                         <div class='news__sticker'>
-                            <div class="news__thumb" style="background-image: url(img/news/1.jpg);"></div>
+                            <div class="news__thumb" style="background-image: url(img/news/2.jpg);"></div>
                             <div class='news__help-container'>
                                 <h3 class='news__subtitle'>Чемпионы WorldSkills 2014</h3>
                                 <div class='news__descr'>19-23 мая 2015 года в Казани (Россия) прошел чемпионат по профессиональному мастерству «WorldSkills СНГ». Наши ребята заняли второе место!</div>
@@ -75,7 +75,7 @@
                     </div>
                     <div class="news__card col-xs-12 col-sm-6 col-lg-4">
                         <div class='news__sticker'>
-                            <div class="news__thumb" style="background-image: url(img/news/1.jpg);"></div>
+                            <div class="news__thumb" style="background-image: url(img/news/3.jpg);"></div>
                             <div class='news__help-container'>
                                 <h3 class='news__subtitle'>Arduino Day 2014</h3>
                                 <div class='news__descr'>19-23 мая 2015 года в Казани (Россия) прошел чемпионат по профессиональному мастерству «WorldSkills СНГ». Наши ребята заняли второе место!</div>
