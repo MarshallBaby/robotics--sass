@@ -211,6 +211,7 @@
             </div>
             <div class='row justify-content-around'>
                 <div class=' flex-wrap d-flex justify-content-center col-sm-12 col-md-4 col-lg-4'>
+                    <div class="excursion__dark"></div>
                     <div class='excursion__item'>Онлайн-экскурсия</div>
                 </div>
                 <div class=' flex-wrap d-flex justify-content-center col-sm-12 col-md-4 col-lg-4'>

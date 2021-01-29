@@ -1,7 +1,7 @@
 <header class="header">
     <div class="container mt-lg-3 mb-lg-3 pt-2 d-flex justify-content-between justify-content-md-start align-items-center">
         <img class="mh-100" src="img/logo.png" alt="logo">
-        <ul class="header__list col-md-auto d-none d-md-flex justify-row align-items-center ml-lg-3 mb-0 mt-0 h-100">
+        <ul class="header__list offset-lg-1 w-100 d-none d-md-flex justify-row align-items-center mb-0 mt-0 h-100">
         <li><a href="#"> О нас </a> </li>
             <li><a href="#"> Новости </a> </li>
             <li><a href="#"> Проекты </a> </li>
