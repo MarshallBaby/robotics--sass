@@ -56,7 +56,7 @@
                                 <h3 class='news__subtitle'>Второе место на WorldSkills СНГ</h3>
                                 <div class='news__descr'>19-23 мая 2015 года в Казани (Россия) прошел чемпионат по профессиональному мастерству «WorldSkills СНГ». Наши ребята заняли второе место!</div>
                                 <div class='news__more'>
-                                    <a href="#">Подробнее</a>
+                                    <a href="single.php">Подробнее</a>
                                 </div>
                             </div>
                         </div>
@@ -211,14 +211,22 @@
             </div>
             <div class='row justify-content-around'>
                 <div class=' flex-wrap d-flex justify-content-center col-sm-12 col-md-4 col-lg-4'>
+                    
+                    <div class='excursion__item'> <span>Онлайн-экскурсия </span>
                     <div class="excursion__dark"></div>
-                    <div class='excursion__item'>Онлайн-экскурсия</div>
+                    </div>
                 </div>
                 <div class=' flex-wrap d-flex justify-content-center col-sm-12 col-md-4 col-lg-4'>
-                    <div class='excursion__item'>Онлайн-экскурсия</div>
+                    
+                    <div class='excursion__item'> <span>Онлайн-экскурсия </span>
+                    <div class="excursion__dark"></div>
+                    </div>
                 </div>
                 <div class=' flex-wrap d-flex justify-content-center col-sm-12 col-md-4 col-lg-4'>
-                    <div class='excursion__item'>Онлайн-экскурсия</div>
+                    
+                    <div class='excursion__item'> <span>Онлайн-экскурсия </span>
+                    <div class="excursion__dark"></div>
+                    </div>
                 </div>
             </div>
             <hr class='excursion__line'>
