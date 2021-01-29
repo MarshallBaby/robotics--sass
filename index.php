@@ -113,30 +113,41 @@
                 </div>
                 
                 <div class="projects__wrapper align-self-center">
-                    <div class='projects__item'>
+                    <div class='projects__item' style="background-image:url(img/projects/IMG_3959.jpg)">
                         <div class="projects__dark"></div>
                     <div class='projects__name'>Проектирование робототехнических комплексов</div>
                     </div>
-                    <div class='projects__item'>
+                    <div class='projects__item' style="background-image:url(img/projects/IMG_3967.jpg)">
                         <div class="projects__dark"></div>
                         <div class='projects__name'>Цифровое моделирование</div>
                     
                     </div>
-                    <div class='projects__item'>
+                    <div class='projects__item' style="background-image:url(img/projects/IMG_3975.jpg)">
                         <div class="projects__dark"></div>
                         <div class='projects__name'>Промышленная маркировка товаров</div>
                     
                     </div>
-                    <div class='projects__item'>
+                    <div class='projects__item' style="background-image:url(img/projects/IMG_3977.jpg)">
                         <div class="projects__dark"></div>
                         <div class='projects__name'>Разработка систем технического зрения</div>
                     
                     </div>
-                    <div class='projects__item'>
+                    <div class='projects__item' style="background-image:url(img/projects/IMG_3979.jpg)">
                         <div class="projects__dark"></div>
                         <div class='projects__name'>Промышленная маркировка товаров</div>
                     
-                    </div><div class='projects__item'>
+                    </div>
+                    <div class='projects__item d-none d-lg-flex' style="background-image:url(img/projects/IMG_3988-Pano.jpg)">
+                        <div class="projects__dark"></div>
+                        <div class='projects__name'>Аддитивные технологии</div>
+                    
+                    </div>
+                    <div class='projects__item d-none d-lg-flex' style="background-image:url(img/projects/IMG_4015.jpg)">
+                        <div class="projects__dark"></div>
+                        <div class='projects__name'>Обучение и переподготовка</div>
+                    
+                    </div>
+                    <div class='projects__item' style="background-image:url(img/projects/IMG_4032.jpg)">
                         <div class="projects__dark"></div>
                         <div class='projects__name'>Все проекты</div>
                     

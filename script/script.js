@@ -41,13 +41,13 @@ function ready() {
     document.getElementById("mobile-menu-button").addEventListener('click', mobileMenuSwitcher);
     document.getElementById("mobile-menu-button-exit").addEventListener('click', mobileMenuSwitcher);
 
-    fullWidther(document.querySelectorAll(".news__all-news")[0], 1400);
+    fullWidther(document.querySelectorAll(".news__all-news")[0], 1296);
     // fullWidther(document.querySelectorAll(".projects__wrapper")[0], 1400);
 
 
 
     window.addEventListener('resize', function(event) {
-        fullWidther(document.querySelectorAll(".news__all-news")[0], 1400);
+        fullWidther(document.querySelectorAll(".news__all-news")[0], 1296);
         // fullWidther(document.querySelectorAll(".projects__wrapper")[0], 1400);
     });
 

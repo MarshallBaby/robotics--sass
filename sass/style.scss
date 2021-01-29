@@ -19,6 +19,13 @@ $shadow-sticker: 0px 4px 11px 0px rgba(0,
 0,
 0,
 0.25);
+@mixin line {
+    opacity: 0.1;
+    color: $robotics-dark;
+    width: 100%;
+    height: 1px;
+}
+
 @mixin background-settings {
     background-position: center;
     background-repeat: no-repeat;
@@ -251,8 +258,9 @@ body {
         // background-color: red;
         // height: 100px;
         width: 100vw;
-        max-width: 1400px !important;
+        max-width: 1296px !important;
         margin-top: 37px;
+        margin-bottom: $margin;
     }
     &__dark {
         z-index: 2;
@@ -263,9 +271,10 @@ body {
         height: 100%;
         background-color: #000000;
         transition: 0.3s all ease;
-        opacity: 0.2;
+        opacity: 0.3;
     }
     &__item {
+        padding: 10px;
         position: relative;
         cursor: pointer;
         padding: 10px 10px 10px 10px;
@@ -278,11 +287,11 @@ body {
         font-weight: 500;
         text-align: center;
         @include background-settings;
-        background-image: url(../../img/cover.jpg);
         height: 126px;
         &:hover {
+            text-decoration: underline;
             .projects__dark {
-                opacity: 0.5;
+                opacity: 0.6;
             }
         }
     }
@@ -349,19 +358,32 @@ body {
         margin-top: $margin;
     }
     &__item {
+        cursor: pointer;
         margin-bottom: 36px;
         overflow: hidden;
         width: 331px;
         height: 188px;
         box-shadow: $shadow-sticker;
         border-radius: $border-radius;
+        &:hover {
+            text-decoration: underline;
+            text-decoration-color: $robotics-white;
+            .partners__logo {
+                background-color: $robotics-white-hover;
+                img {
+                    max-width: 45%;
+                }
+            }
+        }
     }
     &__logo {
+        transition: 0.4s all ease;
         display: flex;
         justify-content: center;
         align-items: center;
         height: 130px;
         img {
+            transition: 0.4s all ease;
             max-width: 40%;
             cursor: pointer;
         }
@@ -405,12 +427,7 @@ body {
         }
     }
     &__line {
-        // border: 1px solid rgba(63, 63, 63, 0.1);
-        // box-shadow: $shadow-sticker;
-        opacity: 0.3;
-        color: $robotics-dark;
-        width: 100%;
-        height: 1px;
+        @include line;
     }
 }
 
@@ -449,12 +466,18 @@ body {
         box-shadow: $shadow-sticker;
     }
     &__line {
-        // border: 1px solid rgba(63, 63, 63, 0.1);
-        // box-shadow: $shadow-sticker;
-        opacity: 0.3;
-        color: $robotics-dark;
-        width: 100%;
-        height: 1px;
+        @include line;
+    }
+}
+
+@media (min-width: $bootstrap-md-breakpoint) {
+    .projects {
+        &__wrapper {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        &__item {
+            min-height: 170px !important;
+        }
     }
 }
 
@@ -465,6 +488,11 @@ body {
         }
         &__descr {
             padding-right: 20%;
+        }
+    }
+    .projects {
+        &__item {
+            min-height: 190px;
         }
     }
 }
@@ -518,6 +546,23 @@ body {
                 background-color: $robotics-white-hover;
                 text-decoration: underline;
             }
+        }
+    }
+    .projects {
+        &__descr {
+            max-width: 60%;
+        }
+        &__wrapper {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        &__item {
+            min-height: 170px !important;
+            font-size: 16px;
+        }
+    }
+    .partners {
+        &__descr {
+            max-width: 60%;
         }
     }
 }
