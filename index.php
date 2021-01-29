@@ -104,6 +104,49 @@
                 </div>
             </div>
         </section>
+
+        <section class="projects">
+            <div class="container d-flex flex-column">
+                <h2 class ='projects__title'>Проекты</h2>
+                <div class='projects__descr'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                
+                </div>
+                
+                <div class="projects__wrapper align-self-center">
+                    <div class='projects__item'>
+                        <div class="projects__dark"></div>
+                    <div class='projects__name'>Проектирование робототехнических комплексов</div>
+                    </div>
+                    <div class='projects__item'>
+                        <div class="projects__dark"></div>
+                        <div class='projects__name'>Цифровое моделирование</div>
+                    
+                    </div>
+                    <div class='projects__item'>
+                        <div class="projects__dark"></div>
+                        <div class='projects__name'>Промышленная маркировка товаров</div>
+                    
+                    </div>
+                    <div class='projects__item'>
+                        <div class="projects__dark"></div>
+                        <div class='projects__name'>Разработка систем технического зрения</div>
+                    
+                    </div>
+                    <div class='projects__item'>
+                        <div class="projects__dark"></div>
+                        <div class='projects__name'>Промышленная маркировка товаров</div>
+                    
+                    </div><div class='projects__item'>
+                        <div class="projects__dark"></div>
+                        <div class='projects__name'>Все проекты</div>
+                    
+                    </div>
+                </div>
+               
+                
+            </div>
+        </section>
+
         <section class='partners'>
             <div class='container'>
                 <h2 class ='partners__title'>Наши партнеры</h2>
