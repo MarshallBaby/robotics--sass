@@ -475,6 +475,7 @@ body {
     &__line {
         @include line;
     }
+    $robotics-white-hover: #F0F0F0;
 }
 
 .excursion {
@@ -540,7 +541,11 @@ body {
     &__title {
         @include subtitles;
     }
+    &__line {
+        @include line;
+    }
     &__item {
+        overflow: hidden;
         margin-bottom: $margin;
         min-height: 515px;
         box-shadow: $shadow-sticker;
@@ -569,6 +574,19 @@ body {
         &_sub {
             font-weight: 300 !important;
         }
+    }
+}
+
+.students {
+    margin: $margin 0 $margin 0;
+    &__title {
+        @include subtitles;
+    }
+    &__list {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 40px;
     }
 }
 

@@ -15,13 +15,16 @@ function linksSwitch(event) {
     $(".links__item")[id].classList.add('links__item_active');
     $(".links__subtitle")[0].innerHTML = linksData[id].title;
     $(".links__desrc")[0].innerHTML = linksData[id].descr;
+    $(".links__href")[0].setAttribute("href", linksData[id].href);
+
 }
 
 let linksData = [];
 
-function LinksDataConstructor(title, descr) {
+function LinksDataConstructor(title, descr, href) {
     this.title = title;
     this.descr = descr;
+    this.href = href;
 }
 
 let isMobileMunuOpen = false;
@@ -61,7 +64,7 @@ function ready() {
         links[i].addEventListener("mouseover", linksSwitch);
     }
     for (let i = 0; i < links.length; i++) {
-        linksData[i] = new LinksDataConstructor(links[i].getAttribute('data-title'), links[i].innerHTML);
+        linksData[i] = new LinksDataConstructor(links[i].getAttribute('data-title'), links[i].innerHTML, links[i].getAttribute('data-href'));
         links[i].innerHTML = links[i].getAttribute('data-title');
     }
 

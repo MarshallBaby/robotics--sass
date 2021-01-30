@@ -239,19 +239,19 @@
                     <div class='row'>
                         <div class='col-sm-12 col-lg-4 col-xl-4 col-xxl-3'>
                             <div class='links__wrapper'>
-                                <div data-title="RoboRace" class='links__item links__item_active'>
+                                <div data-href="sfs" data-title="RoboRace" class='links__item links__item_active'>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum animi commodi dolore sit iusto est reiciendis minus in ut, necessitatibus doloremque magnam aliquam quae! Corporis illum voluptas incidunt facilis porro.
                                 </div>
-                                <div data-title="TowerLight Urcap" class='links__item'>
+                                <div data-href="sefs" data-title="TowerLight Urcap" class='links__item'>
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur quibusdam ea doloribus aperiam maxime vel officiis quidem, doloremque recusandae maiores. Cupiditate beatae doloremque voluptates sequi magnam? Facere reiciendis molestiae voluptate?
                                 </div>
-                                <div data-title="WIKI" class='links__item'>
+                                <div data-href="dgdg" data-title="WIKI" class='links__item'>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. In a vitae nemo nostrum beatae! Vero iste, iure et exercitationem asperiores ullam saepe cupiditate, ducimus repellat magni repudiandae. Quaerat, facilis suscipit.
                                 </div>
-                                <div data-title="RAIPAP" class='links__item'>
+                                <div data-href="hds" data-title="RAIPAP" class='links__item'>
                                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, ipsam est nam, modi sunt id minus assumenda nobis aliquam iste cum nisi officia dolor minima quasi? Quos nostrum expedita a.
                                 </div>
-                                <div data-title="Публикации" class='links__item'>
+                                <div data-href="adafg" data-title="Публикации" class='links__item'>
                                     Перечень научных публикаций лаборатории, тем дипломных проектов, магистерских диссертаций, участие в конференциях и семинарах.
                                 </div>
                             </div>
@@ -261,6 +261,7 @@
                             <div class="links__info">
                                 <div class='links__subtitle'>RoboRace</div>
                                 <div class='links__desrc'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</div>
+                                <a href="#" class="links__href"> Подробнее </a>
                             </div>
                         </div>
 

@@ -14,7 +14,7 @@
 <body>
 
     <?php include "header.php" ?>
-    <section class='members'>
+    <section class='members '>
         <div class='container'>
             <h2 class='members__title'>Сотрудники</h2>
             <div class='members__wrapper'>
@@ -36,7 +36,7 @@
                         <div class='members__item  d-flex flex-column flex-lg-row'>
                             <div class='members__thumb' style="background-image: url(img/members/2.jpg);"></div>
                             <div class='members__info'>
-                                <h3 class='members__name'>Валерий Викторович Касьяник</h3>
+                                <h3 class='members__name'>Валерий Михайлович Ракецкий</h3>
                                 <div class='members__descr'>Руководство лабораторией, цифровой инжиниринг.<br>
 
                                     <span class='d-none d-md-flex members__descr_sub'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum metus a pharetra elementum. Cras enim leo, malesuada et commodo in, pellentesque nec erat.</span>
@@ -49,7 +49,7 @@
                         <div class='members__item  d-flex flex-column flex-lg-row'>
                             <div class='members__thumb' style="background-image: url(img/members/3.jpg);"></div>
                             <div class='members__info'>
-                                <h3 class='members__name'>Валерий Викторович Касьяник</h3>
+                                <h3 class='members__name'>Артем Олегович Скарубо</h3>
                                 <div class='members__descr'>Руководство лабораторией, цифровой инжиниринг.<br>
 
                                     <span class='d-none d-md-flex members__descr_sub'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum metus a pharetra elementum. Cras enim leo, malesuada et commodo in, pellentesque nec erat.</span>
@@ -71,10 +71,59 @@
 
                         </div>
                     </div>
-                </div>
+                    <div class='col-sm-12 col-md-6 col-lg-9 justify-self-center'>
+                        <div class='members__item  d-flex flex-column flex-lg-row'>
+                            <div class='members__thumb'></div>
+                            <div class='members__info'>
+                                <h3 class='members__name'>Андрей Петрович Дунец</h3>
+                                <div class='members__descr'>Руководство лабораторией, цифровой инжиниринг.<br>
 
+                                    <span class='d-none d-md-flex members__descr_sub'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum metus a pharetra elementum. Cras enim leo, malesuada et commodo in, pellentesque nec erat.</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <hr class='members__line'>
             </div>
+        
+    </section>
+    <section class="mb-5">
+    <div class='container'><div class='students__title'>Студенты</div>
+        <div class='students__list'>
+            <ul>
+                <li>Денис Хомиченко
+                </li>
+                <li> Алексей Пучек
+                </li>
+                <li>Евгений Мешко
+                </li>
+                <li>Дмитрий Склипус
+                </li>
+                <li>Анатолий Богуш
+                </li>
+                <li>Андрей Бакша
+                </li>
+                <li>Андрей Лифенец
+                </li>
+                <li>Андрей Климович
+                </li>
+                <li>Екатерина Ледак
+                </li>
+                <li>Илона Зайкова
+                </li>
+                <li>Александр Назаров
+                </li>
+                <li>Александр Нефедьев
+                </li>
+                <li>Сергей Евчик
+                </li>
+            </ul>
         </div>
+        <a class='article__back align-self-start ml-3' href='index.php'>Назад</a>
+    </div>
+     
     </section>
     <?php include "footer.php" ?>
     <script src="script/script.js"></script>
