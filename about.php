@@ -36,8 +36,8 @@
                     <div class="excursion__dark"></div>
                     </div>
                 </div>
+                <a class='article__back align-self-start' href='index.php'>Назад</a>
             </div>
-            <hr class='excursion__line'>
             </div>
 
             
