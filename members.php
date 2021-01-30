@@ -19,24 +19,56 @@
             <h2 class='members__title'>Сотрудники</h2>
             <div class='members__wrapper'>
                 <div class='row justify-content-start'>
-                    <div class='col-sm-12 col-md-6 col-lg-9 justify-self-center'>
-                        <div class='members__item'>
+                    <div class='col-sm-12 col-md-6 col-lg-9'>
+                        <div class='members__item d-flex flex-column flex-lg-row'>
                             <div class='members__thumb' style="background-image: url(img/members/1.jpg);"></div>
-                            <h3 class='members__name'>Валерий Викторович Касьяник</h3>
-                            <div class='members__descr'>Руководство лабораторией, цифровой инжиниринг.<br>
+                            <div class='members__info'>
+                                <h3 class='members__name'>Валерий Викторович Касьяник</h3>
+                                <div class='members__descr'>Руководство лабораторией, цифровой инжиниринг.<br>
 
-                                <span class='d-none d-md-flex members__descr_sub'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum metus a pharetra elementum. Cras enim leo, malesuada et commodo in, pellentesque nec erat.</span>
+                                    <span class='d-none d-md-flex members__descr_sub'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum metus a pharetra elementum. Cras enim leo, malesuada et commodo in, pellentesque nec erat.</span>
+                                </div>
                             </div>
+
                         </div>
                     </div>
                     <div class='col-sm-12 col-md-6 col-lg-9 justify-self-center'>
-                        <div class='members__item'>
-                            <div class='members__thumb' style="background-image: url(img/members/1.jpg);"></div>
-                            <h3 class='members__name'>Валерий Викторович Касьяник</h3>
-                            <div class='members__descr'>Руководство лабораторией, цифровой инжиниринг.<br>
+                        <div class='members__item  d-flex flex-column flex-lg-row'>
+                            <div class='members__thumb' style="background-image: url(img/members/2.jpg);"></div>
+                            <div class='members__info'>
+                                <h3 class='members__name'>Валерий Викторович Касьяник</h3>
+                                <div class='members__descr'>Руководство лабораторией, цифровой инжиниринг.<br>
 
-                                <span class='d-none d-md-flex members__descr_sub'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum metus a pharetra elementum. Cras enim leo, malesuada et commodo in, pellentesque nec erat.</span>
+                                    <span class='d-none d-md-flex members__descr_sub'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum metus a pharetra elementum. Cras enim leo, malesuada et commodo in, pellentesque nec erat.</span>
+                                </div>
                             </div>
+
+                        </div>
+                    </div>
+                    <div class='col-sm-12 col-md-6 col-lg-9 justify-self-center'>
+                        <div class='members__item  d-flex flex-column flex-lg-row'>
+                            <div class='members__thumb' style="background-image: url(img/members/3.jpg);"></div>
+                            <div class='members__info'>
+                                <h3 class='members__name'>Валерий Викторович Касьяник</h3>
+                                <div class='members__descr'>Руководство лабораторией, цифровой инжиниринг.<br>
+
+                                    <span class='d-none d-md-flex members__descr_sub'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum metus a pharetra elementum. Cras enim leo, malesuada et commodo in, pellentesque nec erat.</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class='col-sm-12 col-md-6 col-lg-9 justify-self-center'>
+                        <div class='members__item  d-flex flex-column flex-lg-row'>
+                            <div class='members__thumb'></div>
+                            <div class='members__info'>
+                                <h3 class='members__name'>Валерий Викторович Касьяник</h3>
+                                <div class='members__descr'>Руководство лабораторией, цифровой инжиниринг.<br>
+
+                                    <span class='d-none d-md-flex members__descr_sub'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum metus a pharetra elementum. Cras enim leo, malesuada et commodo in, pellentesque nec erat.</span>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>

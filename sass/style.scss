@@ -550,9 +550,11 @@ body {
         overflow: hidden;
     }
     &__thumb {
-        height: 360px;
+        height: 390px;
+        width: 350px;
         @include background-settings;
         cursor: pointer;
+        background-image: url(../../img/members/profile.jpg);
     }
     &__name {
         font-family: 'Raleway', sans-serif;
@@ -605,8 +607,16 @@ body {
 @media (min-width: $bootstrap-lg-breakpoint) {
     .members {
         &__item {
-            min-height: 392px;
+            height: 230px;
             width: 800px;
+            min-height: 230px;
+        }
+        &__thumb {
+            height: 250px;
+            width: 350px;
+        }
+        &__descr {
+            max-width: 90%;
         }
     }
     .card {

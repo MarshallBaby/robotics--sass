@@ -218,7 +218,7 @@
                 </div>
                 <div class=' flex-wrap d-flex justify-content-center col-sm-12 col-md-4 col-lg-4'>
                     
-                    <div class='excursion__item' style="background-image: url(img/excursion/2.jpg);"> <span>Офлайн-экскурсия </span>
+                    <div class='excursion__item' style="background-image: url(img/excursion/2.jpg);"> <span>Оффлайн-экскурсия </span>
                     <div class="excursion__dark"></div>
                     </div>
                 </div>

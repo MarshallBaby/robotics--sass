@@ -555,11 +555,13 @@ body {
   overflow: hidden;
 }
 .members__thumb {
-  height: 360px;
+  height: 390px;
+  width: 350px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
+  background-image: url(../../img/members/profile.jpg);
 }
 .members__name {
   font-family: "Raleway", sans-serif;
@@ -602,8 +604,16 @@ body {
 }
 @media (min-width: 992px) {
   .members__item {
-    min-height: 392px;
+    height: 230px;
     width: 800px;
+    min-height: 230px;
+  }
+  .members__thumb {
+    height: 250px;
+    width: 350px;
+  }
+  .members__descr {
+    max-width: 90%;
   }
 
   .card {
