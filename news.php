@@ -142,7 +142,9 @@
                     
 
                 </div>
+                <a class='article__back align-self-start' href='index.php'>Назад</a>
             </div>
+            
         </section>
 <?php include "footer.php" ?>
     <script src="script/script.js"></script>

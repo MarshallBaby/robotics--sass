@@ -714,3 +714,8 @@ body {
   line-height: 14px;
   margin-top: auto;
 }
+.footer_ext {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
