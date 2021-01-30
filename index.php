@@ -100,7 +100,7 @@
 
                 </div>
                 <div class='news__all-news'>
-                    <a href="#">все новости</a>
+                    <a href="news.php">все новости</a>
                 </div>
             </div>
         </section>
@@ -212,19 +212,19 @@
             <div class='row justify-content-around'>
                 <div class=' flex-wrap d-flex justify-content-center col-sm-12 col-md-4 col-lg-4'>
                     
-                    <div class='excursion__item'> <span>Онлайн-экскурсия </span>
+                    <div class='excursion__item' style="background-image: url(img/excursion/1.jpg);"> <span>Онлайн-экскурсия </span>
                     <div class="excursion__dark"></div>
                     </div>
                 </div>
                 <div class=' flex-wrap d-flex justify-content-center col-sm-12 col-md-4 col-lg-4'>
                     
-                    <div class='excursion__item'> <span>Онлайн-экскурсия </span>
+                    <div class='excursion__item' style="background-image: url(img/excursion/2.jpg);"> <span>Офлайн-экскурсия </span>
                     <div class="excursion__dark"></div>
                     </div>
                 </div>
                 <div class=' flex-wrap d-flex justify-content-center col-sm-12 col-md-4 col-lg-4'>
                     
-                    <div class='excursion__item'> <span>Онлайн-экскурсия </span>
+                    <div class='excursion__item' style="background-image: url(img/excursion/3.jpg);"> <span>Виртуальная-экскурсия </span>
                     <div class="excursion__dark"></div>
                     </div>
                 </div>
@@ -250,6 +250,9 @@
                                 </div>
                                 <div data-title="RAIPAP" class='links__item'>
                                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, ipsam est nam, modi sunt id minus assumenda nobis aliquam iste cum nisi officia dolor minima quasi? Quos nostrum expedita a.
+                                </div>
+                                <div data-title="Публикации" class='links__item'>
+                                    Перечень научных публикаций лаборатории, тем дипломных проектов, магистерских диссертаций, участие в конференциях и семинарах.
                                 </div>
                             </div>
 

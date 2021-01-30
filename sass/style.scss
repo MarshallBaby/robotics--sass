@@ -213,7 +213,7 @@ body {
     margin: $margin 0 $margin 0;
     &__card {
         display: flex;
-        flex: 1 0 auto;
+        // flex: 1 0 auto;
     }
     &__thumb {
         height: 171px;
@@ -235,10 +235,14 @@ body {
         font-weight: 200;
     }
     &__sticker {
+        &:hover {
+            background-color: $robotics-white-hover;
+        }
         box-shadow: $shadow-sticker;
         border-radius: $border-radius;
         overflow: hidden;
         margin-bottom: $margin;
+        transition: 0.3s all ease;
     }
     &__descr {
         font-size: 14px;
@@ -510,7 +514,6 @@ body {
         @include background-settings;
         width: 327px;
         height: 177px;
-        background-image: url(../../img/cover.jpg);
         border-radius: $border-radius;
         box-shadow: $shadow-sticker;
         position: relative;
