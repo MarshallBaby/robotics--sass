@@ -147,7 +147,7 @@
                         <div class='projects__name'>Обучение и переподготовка</div>
                     
                     </div>
-                    <div class='projects__item' style="background-image:url(img/projects/IMG_4032.jpg)">
+                    <div onclick="location.href = 'projects.php';" class='projects__item' style="background-image:url(img/projects/IMG_4032.jpg)">
                         <div class="projects__dark"></div>
                         <div class='projects__name'>Все проекты</div>
                     

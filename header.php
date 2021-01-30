@@ -4,7 +4,7 @@
         <ul class="header__list offset-lg-1 w-100 d-none d-md-flex justify-row align-items-center mb-0 mt-0 h-100">
         <li><a href="about.php"> О нас </a> </li>
             <li><a href="news.php"> Новости </a> </li>
-            <li><a href="#"> Проекты </a> </li>
+            <li><a href="projects.php"> Проекты </a> </li>
             <li><a href="#"> Сотрудничество </a> </li>
             <li><a href="#"> Экскурсии </a> </li>
             <li><a href="#"> Wiki </a> </li>

@@ -41,6 +41,7 @@ function mobileMenuSwitcher() {
 }
 
 function ready() {
+    let initWidth = screen.width;
     if ($("body").height() < $(window).height()) {
         $("body").css('min-heigth', '100vh');
         $(".footer")[0].classList.add('footer_ext');
@@ -55,7 +56,10 @@ function ready() {
 
     window.addEventListener('resize', function(event) {
         fullWidther(document.querySelectorAll(".news__all-news")[0], 1296);
-        // fullWidther(document.querySelectorAll(".projects__wrapper")[0], 1400);
+        if (Math.abs(screen.width - initWidth) > 100) {
+            console.log('pizza');
+            location.reload();
+        }
     });
 
     links = document.getElementsByClassName('links__item');
