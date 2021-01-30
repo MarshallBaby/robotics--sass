@@ -26,7 +26,7 @@
                 </div>
                 <div class=' flex-wrap d-flex justify-content-center col-sm-12 col-md-4 col-lg-3'>
                     
-                    <div class='excursion__item' style="background-image: url(img/excursion/2.jpg);"> <span>Команда </span>
+                    <div onclick="location.href = 'members.php';" class='excursion__item' style="background-image: url(img/excursion/2.jpg);"> <span>Команда </span>
                     <div class="excursion__dark"></div>
                     </div>
                 </div>

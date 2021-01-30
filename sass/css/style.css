@@ -534,12 +534,58 @@ body {
   height: 1px;
 }
 
+.members {
+  margin: 30px 0 30px 0;
+}
+.members__title {
+  font-family: "Cabin", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  color: #2177A8;
+  margin-bottom: 30px;
+  user-select: none;
+}
+.members__item {
+  margin-bottom: 30px;
+  min-height: 515px;
+  box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.25);
+  width: 338px;
+  border-radius: 14px;
+  overflow: hidden;
+}
+.members__thumb {
+  height: 360px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+.members__name {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 15px;
+  padding: 0 15px 0 15px;
+}
+.members__descr {
+  padding: 0 15px 15px 15px;
+  font-weight: 300;
+}
+.members__descr_sub {
+  font-weight: 300 !important;
+}
+
 @media (min-width: 768px) {
   .projects__wrapper {
     grid-template-columns: 1fr 1fr 1fr;
   }
   .projects__item {
     min-height: 170px !important;
+  }
+
+  .members__descr {
+    font-weight: 500;
   }
 }
 @media (min-width: 567px) {
@@ -555,6 +601,11 @@ body {
   }
 }
 @media (min-width: 992px) {
+  .members__item {
+    min-height: 392px;
+    width: 800px;
+  }
+
   .card {
     padding-left: 40px;
   }
@@ -699,6 +750,7 @@ body {
   max-width: 600px;
   box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.25);
 }
+
 .footer {
   display: flex;
   justify-content: center;
