@@ -5,7 +5,7 @@
         <li><a href="about.php"> О нас </a> </li>
             <li><a href="news.php"> Новости </a> </li>
             <li><a href="projects.php"> Проекты </a> </li>
-            <li><a href="#"> Сотрудничество </a> </li>
+            <li><a href="partners.php"> Сотрудничество </a> </li>
             <li><a href="#"> Экскурсии </a> </li>
             <li><a href="#"> Wiki </a> </li>
 
@@ -21,8 +21,8 @@
         <ul class="mobile-menu__list container offset-1 mt-4 ml-2 col-2">
             <li><a href="about.php"> О нас </a> </li>
             <li><a href="news.php"> Новости </a> </li>
-            <li><a href="#"> Проекты </a> </li>
-            <li><a href="#"> Сотрудничество </a> </li>
+            <li><a href="projects.php"> Проекты </a> </li>
+            <li><a href="partners.php"> Сотрудничество </a> </li>
             <li><a href="#"> Экскурсии </a> </li>
         </ul>
     </div>

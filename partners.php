@@ -21,7 +21,7 @@
         <a class='partners__link' href='#'>Как стать партнером</a>
         <div class='partners__wrapper'>
                 <div class='row '>
-                    <div class=' d-flex flex-wrap col-sm-12 col-md-6 col-lg-4'>
+                    <div class=' d-flex flex-wrap col-sm-12 col-md-6 col-lg-4 justify-content-center justify-content-lg-start'>
                         <div class='partners__item'>
                            <div class='partners__logo'>
                                 <img src="img/patners/logo-savushkin-produkt.png" alt="partners">
@@ -31,7 +31,7 @@
                            </div>
                         </div>
                     </div>
-                    <div class=' d-flex flex-wrap col-sm-12 col-md-6 col-lg-4'>
+                    <div class=' d-flex flex-wrap col-sm-12 col-md-6 col-lg-4 justify-content-center justify-content-lg-start'>
                         <div class='partners__item'>
                            <div class='partners__logo'>
                                 <img src="img/patners/logo-savushkin-produkt.png" alt="partners">
@@ -41,7 +41,7 @@
                            </div>
                         </div>
                     </div>
-                    <div class=' d-flex flex-wrap col-sm-12 col-md-6 col-lg-4'>
+                    <div class=' d-flex flex-wrap col-sm-12 col-md-6 col-lg-4 justify-content-center justify-content-lg-start'>
                         <div class='partners__item'>
                            <div class='partners__logo'>
                                 <img src="img/patners/logo-savushkin-produkt.png" alt="partners">
@@ -51,7 +51,7 @@
                            </div>
                         </div>
                     </div>
-                    <div class=' d-flex flex-wrap col-sm-12 col-md-6 col-lg-4'>
+                    <div class=' d-flex flex-wrap col-sm-12 col-md-6 col-lg-4 justify-content-center justify-content-lg-start'>
                         <div class='partners__item'>
                            <div class='partners__logo'>
                                 <img src="img/patners/logo-savushkin-produkt.png" alt="partners">
@@ -61,7 +61,7 @@
                            </div>
                         </div>
                     </div>
-                    <div class=' d-flex flex-wrap col-sm-12 col-md-6 col-lg-4'>
+                    <div class=' d-flex flex-wrap col-sm-12 col-md-6 col-lg-4 justify-content-center justify-content-lg-start'>
                         <div class='partners__item'>
                            <div class='partners__logo'>
                                 <img src="img/patners/logo-savushkin-produkt.png" alt="partners">
@@ -71,7 +71,7 @@
                            </div>
                         </div>
                     </div>
-                    <div class=' d-flex flex-wrap col-sm-12 col-md-6 col-lg-4'>
+                    <div class=' d-flex flex-wrap col-sm-12 col-md-6 col-lg-4 justify-content-center justify-content-lg-start'>
                         <div class='partners__item'>
                            <div class='partners__logo'>
                                 <img src="img/patners/logo-savushkin-produkt.png" alt="partners">
@@ -81,7 +81,7 @@
                            </div>
                         </div>
                     </div>
-                    <div class=' d-flex flex-wrap col-sm-12 col-md-6 col-lg-4'>
+                    <div class=' d-flex flex-wrap col-sm-12 col-md-6 col-lg-4 justify-content-center justify-content-lg-start'>
                         <div class='partners__item'>
                            <div class='partners__logo'>
                                 <img src="img/patners/logo-savushkin-produkt.png" alt="partners">
@@ -91,7 +91,7 @@
                            </div>
                         </div>
                     </div>
-                    <div class=' d-flex flex-wrap col-sm-12 col-md-6 col-lg-4'>
+                    <div class=' d-flex flex-wrap col-sm-12 col-md-6 col-lg-4 justify-content-center justify-content-lg-start'>
                         <div class='partners__item'>
                            <div class='partners__logo'>
                                 <img src="img/patners/logo-savushkin-produkt.png" alt="partners">
@@ -101,7 +101,7 @@
                            </div>
                         </div>
                     </div>
-                    <div class=' d-flex flex-wrap col-sm-12 col-md-6 col-lg-4'>
+                    <div class=' d-flex flex-wrap col-sm-12 col-md-6 col-lg-4 justify-content-center justify-content-lg-start'>
                         <div class='partners__item'>
                            <div class='partners__logo'>
                                 <img src="img/patners/logo-savushkin-produkt.png" alt="partners">
