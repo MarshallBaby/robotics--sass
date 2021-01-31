@@ -567,7 +567,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  cursor: pointer;
   background-image: url(../../img/members/profile.jpg);
 }
 .members__name {
@@ -617,6 +616,9 @@ body {
   margin-bottom: 30px;
   user-select: none;
 }
+.projects__item {
+  user-select: none;
+}
 .projects__item_ext {
   min-height: 190px;
   display: flex;
@@ -638,6 +640,19 @@ body {
   .projects__item_ext .projects__item_ext {
     min-height: 190px !important;
   }
+}
+
+.all-partners {
+  margin: 30px 0 30px 0;
+}
+.all-partners__title {
+  font-family: "Cabin", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  color: #2177A8;
+  margin-bottom: 30px;
+  user-select: none;
 }
 
 @media (min-width: 768px) {

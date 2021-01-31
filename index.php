@@ -199,7 +199,7 @@
                     </div>
                 </div>
                 <div class='partners__full-list'>
-                    <a href="#">полный список</a>
+                    <a href="partners.php">полный список</a>
                 </div>
                 <hr class='partners__line'>
                 </div>
